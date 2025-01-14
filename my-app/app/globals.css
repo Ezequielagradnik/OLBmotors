@@ -1,0 +1,38 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  /* Variables en formato HSL */
+  --background: hsl(0, 0%, 0%);
+  --foreground: hsl(38, 28%, 52%);
+  --card: hsl(0, 0%, 3%);
+  --card-foreground: hsl(38, 28%, 52%);
+  --popover: hsl(0, 0%, 3%);
+  --popover-foreground: hsl(38, 28%, 52%);
+  --primary: hsl(38, 28%, 52%);
+  --primary-foreground: hsl(0, 0%, 0%);
+  --secondary: hsl(0, 0%, 13%);
+  --secondary-foreground: hsl(38, 28%, 52%);
+  --muted: hsl(0, 0%, 13%);
+  --muted-foreground: hsl(38, 28%, 36%);
+  --accent: hsl(0, 0%, 13%);
+  --accent-foreground: hsl(38, 28%, 52%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(38, 28%, 52%);
+  --border: hsl(38, 28%, 52%);
+  --input: hsl(0, 0%, 13%);
+  --ring: hsl(38, 28%, 52%);
+  --radius: 0.5rem;
+}
+
+
+@layer base {
+  * {
+    border: var(--border);
+  }
+  body {
+    background: var(--background);
+    color: var(--foreground);
+  }
+}
