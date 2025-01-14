@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import Link from 'next/link'
 import { Check } from 'lucide-react'
+import { notFound } from 'next/navigation'
 
 const vehicleData = {
   "range-rover-sport": { 
@@ -135,7 +136,7 @@ export default function VehicleDetails({ params }: { params: { id: string } }) {
   const vehicle = vehicleData[params.id as keyof typeof vehicleData]
 
   if (!vehicle) {
-    return <div>Vehicle not found</div>
+    notFound()
   }
 
   const whatsappMessage = encodeURIComponent(
@@ -191,23 +192,31 @@ export default function VehicleDetails({ params }: { params: { id: string } }) {
               </div>
 
               <div className="space-y-6">
-                <div className="flex gap-4">
+                <div className="grid grid-cols-2 gap-4">
                   <Button 
                     onClick={() => setIsRent(false)}
-                    className={`flex-1 text-lg h-12 ${!isRent ? 'bg-[#9b8b6f] text-black hover:bg-[#c4af8d]' : 'bg-zinc-900 text-[#9b8b6f] hover:bg-zinc-800'}`}
+                    className={`text-lg h-14 transition-all duration-300 ${
+                      !isRent 
+                        ? 'bg-[#9b8b6f] text-black hover:bg-[#c4af8d] shadow-lg' 
+                        : 'bg-transparent border-2 border-[#9b8b6f] text-[#9b8b6f] hover:bg-[#9b8b6f]/10'
+                    }`}
                   >
                     Purchase
                   </Button>
                   <Button 
                     onClick={() => setIsRent(true)}
-                    className={`flex-1 text-lg h-12 ${isRent ? 'bg-[#9b8b6f] text-black hover:bg-[#c4af8d]' : 'bg-zinc-900 text-[#9b8b6f] hover:bg-zinc-800'}`}
+                    className={`text-lg h-14 transition-all duration-300 ${
+                      isRent 
+                        ? 'bg-[#9b8b6f] text-black hover:bg-[#c4af8d] shadow-lg' 
+                        : 'bg-transparent border-2 border-[#9b8b6f] text-[#9b8b6f] hover:bg-[#9b8b6f]/10'
+                    }`}
                   >
                     Rent
                   </Button>
                 </div>
                 
-                <Link href={whatsappLink} target="_blank" rel="noopener noreferrer">
-                  <Button className="w-full h-12 text-lg bg-[#9b8b6f] text-black hover:bg-[#c4af8d]">
+                <Link href={whatsappLink} target="_blank" rel="noopener noreferrer" className="block">
+                  <Button className="w-full h-14 text-lg bg-black border-2 border-[#9b8b6f] text-[#9b8b6f] hover:bg-[#9b8b6f] hover:text-black transition-all duration-300">
                     Contact via WhatsApp
                   </Button>
                 </Link>

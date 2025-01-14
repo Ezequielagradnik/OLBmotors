@@ -1,3 +1,62 @@
-export default function Help() {
-    return <div>Help Page</div>;
+"use client"
+
+import { motion } from "framer-motion"
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+
+const faqs = [
+  {
+    question: "How can I schedule a test drive?",
+    answer: "To schedule a test drive, simply browse our vehicle inventory, select the car you're interested in, and click on the 'Contact via WhatsApp' button. Our team will promptly assist you in arranging a convenient time for your test drive."
+  },
+  {
+    question: "What documents do I need to purchase a vehicle?",
+    answer: "To purchase a vehicle, you'll need a valid UAE driver's license, Emirates ID, and proof of insurance. For financing options, additional documents such as bank statements and proof of income may be required."
+  },
+  {
+    question: "Do you offer vehicle financing?",
+    answer: "Yes, we offer competitive financing options through our trusted banking partners. Our finance team can help you explore various plans tailored to your needs and budget."
+  },
+  {
+    question: "What is your return policy?",
+    answer: "We offer a 7-day/500 km return policy on all our vehicles. If you're not completely satisfied with your purchase, you can return the vehicle within this period for a full refund, subject to our terms and conditions."
+  },
+  {
+    question: "How does your vehicle inspection process work?",
+    answer: "All our vehicles undergo a rigorous multi-point inspection by certified technicians. We provide a detailed report of the vehicle's condition and history to ensure transparency and peace of mind for our customers."
   }
+]
+
+export default function HelpPage() {
+  return (
+    <div className="flex flex-col min-h-screen pt-24">
+      <motion.section 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        className="flex-1 container mx-auto px-4 py-12"
+      >
+        <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center">
+          <span className="text-[#9b8b6f]">Help</span> Center
+        </h1>
+        <p className="text-lg text-gray-400 max-w-2xl mx-auto text-center mb-12">
+          Find answers to common questions about our services and processes.
+        </p>
+        <div className="max-w-3xl mx-auto">
+          <Accordion type="single" collapsible>
+            {faqs.map((faq, index) => (
+              <AccordionItem key={index} value={`item-${index}`}>
+                <AccordionTrigger className="text-left text-[#9b8b6f] hover:text-[#c4af8d]">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent>
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+      </motion.section>
+    </div>
+  )
+}
+

@@ -15,12 +15,13 @@ export function Header() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-[#9b8b6f]/20 bg-black/95 backdrop-blur supports-[backdrop-filter]:bg-black/60">
       <div className="container flex h-20 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
+        <Link href="/" className="flex items-center space-x-2 ml-4">
           <Image 
             src="/an-illustration-of-a-large-golden-olb-te_lJOcQSzsQr-1HLXegteuWA_DyoTyHT9RuaAo3wkMfetYQ.png" 
             alt="OLB Motors Logo" 
             width={100} 
             height={60}
+            className="object-contain"
           />
         </Link>
         <nav className="hidden md:flex items-center space-x-8">
@@ -35,6 +36,18 @@ export function Header() {
             className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors"
           >
             About Us
+          </Link>
+          <Link 
+            href="/help" 
+            className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors"
+          >
+            Help
+          </Link>
+          <Link 
+            href="/contact" 
+            className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors"
+          >
+            Contact
           </Link>
           <Link href="/sell">
             <Button 
@@ -66,6 +79,18 @@ export function Header() {
               >
                 About Us
               </Link>
+              <Link 
+                href="/help" 
+                className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors"
+              >
+                Help
+              </Link>
+              <Link 
+                href="/contact" 
+                className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors"
+              >
+                Contact
+              </Link>
               <Link href="/sell">
                 <Button 
                   variant="outline" 
@@ -82,4 +107,3 @@ export function Header() {
     </header>
   )
 }
-

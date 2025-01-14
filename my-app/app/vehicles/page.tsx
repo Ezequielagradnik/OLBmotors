@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
@@ -52,6 +52,23 @@ export default function Vehicles() {
     }).format(convertedPrice)
   }
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const selectors = document.querySelector('.vehicle-selectors');
+      if (selectors) {
+        const scrollPosition = window.scrollY;
+        if (scrollPosition > 100) {
+          selectors.classList.add('sticky-selectors');
+        } else {
+          selectors.classList.remove('sticky-selectors');
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div className="flex flex-col min-h-screen pt-24">
       <motion.section 
@@ -63,12 +80,17 @@ export default function Vehicles() {
         <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center">
           <span className="text-[#9b8b6f]">Our</span> Vehicles
         </h1>
-        <div className="flex flex-wrap gap-4 mb-8 justify-center">
+        <motion.div 
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="flex flex-wrap gap-4 justify-center items-center mb-12 vehicle-selectors"
+        >
           <Select onValueChange={(value) => setSelectedType(value)}>
-            <SelectTrigger className="w-[180px]">
+            <SelectTrigger className="w-[180px] bg-zinc-900 text-[#9b8b6f] border-[#9b8b6f] hover:bg-zinc-800 transition-colors">
               <SelectValue placeholder="Vehicle Type" />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="bg-zinc-900 text-[#9b8b6f] border-[#9b8b6f]">
               <SelectItem value="All">All Types</SelectItem>
               <SelectItem value="SUV">SUV</SelectItem>
               <SelectItem value="Sedan">Sedan</SelectItem>
@@ -77,16 +99,16 @@ export default function Vehicles() {
             </SelectContent>
           </Select>
           <Select onValueChange={(value) => setSelectedCurrency(value)}>
-            <SelectTrigger className="w-[180px]">
+            <SelectTrigger className="w-[180px] bg-zinc-900 text-[#9b8b6f] border-[#9b8b6f] hover:bg-zinc-800 transition-colors">
               <SelectValue placeholder="Currency" />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="bg-zinc-900 text-[#9b8b6f] border-[#9b8b6f]">
               <SelectItem value="AED">AED</SelectItem>
               <SelectItem value="USD">USD</SelectItem>
               <SelectItem value="EUR">EUR</SelectItem>
             </SelectContent>
           </Select>
-        </div>
+        </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredVehicles.map((vehicle) => (
             <motion.div

@@ -1,3 +1,116 @@
-export default function Contact() {
-    return <div>Contact Page</div>;
+"use client"
+
+import { useState } from 'react'
+import { motion } from "framer-motion"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Textarea } from "@/components/ui/textarea"
+import { Label } from "@/components/ui/label"
+import { Phone, Mail, MapPin, MessageSquare } from 'lucide-react'
+
+export default function ContactPage() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  })
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData(prev => ({
+      ...prev,
+      [e.target.id]: e.target.value
+    }))
   }
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+    
+    const message = encodeURIComponent(
+      `*New Contact Form Submission*\n\n` +
+      `*Name:* ${formData.name}\n` +
+      `*Email:* ${formData.email}\n\n` +
+      `*Message:*\n${formData.message}`
+    )
+
+    window.open(`https://wa.me/971585867713?text=${message}`, '_blank')
+  }
+
+  return (
+    <div className="flex flex-col min-h-screen pt-24">
+      <motion.section 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        className="flex-1 container mx-auto px-4 py-12"
+      >
+        <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center">
+          <span className="text-[#9b8b6f]">Contact</span> Us
+        </h1>
+        <p className="text-lg text-gray-400 max-w-2xl mx-auto text-center mb-12">
+          Get in touch with our team for any inquiries or support.
+        </p>
+        <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+          <div className="space-y-8">
+            <div className="flex items-center space-x-4">
+              <Phone className="w-6 h-6 text-[#9b8b6f]" />
+              <p className="text-gray-300">+971 58 586 7713</p>
+            </div>
+            <div className="flex items-center space-x-4">
+              <Mail className="w-6 h-6 text-[#9b8b6f]" />
+              <p className="text-gray-300">info@olbmotors.com</p>
+            </div>
+            <div className="flex items-center space-x-4">
+              <MapPin className="w-6 h-6 text-[#9b8b6f]" />
+              <p className="text-gray-300">Dubai, United Arab Emirates</p>
+            </div>
+            <div className="flex items-center space-x-4">
+              <MessageSquare className="w-6 h-6 text-[#9b8b6f]" />
+              <p className="text-gray-300">@olb_motors</p>
+            </div>
+          </div>
+          <form onSubmit={handleSubmit} className="space-y-6">
+            <div className="space-y-2">
+              <Label htmlFor="name">Your Name</Label>
+              <Input 
+                id="name" 
+                placeholder="Full Name" 
+                required 
+                value={formData.name}
+                onChange={handleChange}
+              />
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="email">Email</Label>
+              <Input 
+                id="email" 
+                type="email" 
+                placeholder="your@email.com" 
+                required 
+                value={formData.email}
+                onChange={handleChange}
+              />
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="message">Message</Label>
+              <Textarea 
+                id="message" 
+                placeholder="Your message..." 
+                required 
+                value={formData.message}
+                onChange={handleChange}
+              />
+            </div>
+            <Button 
+              type="submit" 
+              className="w-full h-12 bg-[#9b8b6f] text-black hover:bg-[#c4af8d] transition-colors group"
+            >
+              <MessageSquare className="w-5 h-5 mr-2 transition-transform group-hover:scale-110" />
+              Contact via WhatsApp
+            </Button>
+          </form>
+        </div>
+      </motion.section>
+    </div>
+  )
+}
+
