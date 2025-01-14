@@ -17,11 +17,10 @@ export function Header() {
       <div className="container flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <Image 
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-u6BpLDi47ICsiDrTQ8RvdTXveMUSkN.png" 
+            src="/an-illustration-of-a-large-golden-olb-te_lJOcQSzsQr-1HLXegteuWA_DyoTyHT9RuaAo3wkMfetYQ.png" 
             alt="OLB Motors Logo" 
             width={140} 
             height={60}
-            className="rounded brightness-150 contrast-125"
           />
         </Link>
         <nav className="hidden md:flex items-center space-x-8">
