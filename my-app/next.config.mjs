@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        unoptimized: true,
+      unoptimized: true,
       remotePatterns: [
         {
           protocol: 'https',
@@ -11,8 +11,20 @@ const nextConfig = {
         },
       ],
     },
+    async headers() {
+      return [
+        {
+          source: '/favicon.ico',
+          headers: [
+            {
+              key: 'Cache-Control',
+              value: 'public, max-age=31536000, immutable',
+            },
+          ],
+        },
+      ];
+    },
   };
   
   export default nextConfig;
-  
   
