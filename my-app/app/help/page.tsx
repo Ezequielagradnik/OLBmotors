@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 const faqs = [
   {
@@ -41,22 +40,21 @@ export default function HelpPage() {
         <p className="text-lg text-gray-400 max-w-2xl mx-auto text-center mb-12">
           Find answers to common questions about our services and processes.
         </p>
-        <div className="max-w-3xl mx-auto">
-          <Accordion type="single" collapsible>
-            {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-left text-[#9b8b6f] hover:text-[#c4af8d]">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent>
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+        <div className="max-w-3xl mx-auto space-y-8">
+          {faqs.map((faq, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="bg-zinc-900 rounded-lg p-6 shadow-lg"
+            >
+              <h3 className="text-xl font-semibold mb-4 text-[#9b8b6f]">{faq.question}</h3>
+              <p className="text-gray-300">{faq.answer}</p>
+            </motion.div>
+          ))}
         </div>
       </motion.section>
     </div>
   )
 }
-
