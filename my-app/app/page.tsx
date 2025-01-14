@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button"
 import { ChevronRight, ShoppingCart, Key, Car } from 'lucide-react'
 import Link from 'next/link'
 import { BrandCarousel } from "@/components/brand-carousel"
-import { Footer } from "@/components/footer"
 
 const services = [
   {
@@ -112,7 +111,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Footer />
+  
     </div>
   )
 }
