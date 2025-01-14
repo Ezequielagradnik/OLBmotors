@@ -1,5 +1,5 @@
 import { Playfair_Display } from 'next/font/google'
-import "./globals.css"
+import "../styles/globals.css"
 import { Header } from "@/components/header"
 
 const playfair = Playfair_Display({ subsets: ["latin"] })
