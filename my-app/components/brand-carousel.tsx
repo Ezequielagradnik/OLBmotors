@@ -4,6 +4,8 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
+
 // Agregar URLs de imágenes para cada marca
 const brands = [
   { name: 'Audi', image: '/audi-logo.png' },
@@ -63,17 +65,20 @@ export function BrandCarousel() {
                 transition={{ duration: 0.3 }}
                 className="flex-shrink-0 w-32 text-center"
               >
-                <div className="bg-zinc-800/50 p-4 rounded-xl backdrop-blur">
-                  {/* Mostrar la imagen de la marca */}
-                  <Image 
-                    src={brand.image} 
-                    alt={brand.name} 
-                    width={80} 
-                    height={80} 
-                    className="w-20 h-20 object-contain mx-auto mb-2" 
-                  />
-                  <p className="mt-2 text-sm text-[#9b8b6f]">{brand.name}</p>
-                </div>
+                <Link href={`/brands/${brand.name.toLowerCase().replace(' ', '-')}`}>
+                  <div className="bg-zinc-800/50 p-4 rounded-xl backdrop-blur hover:bg-zinc-700/50 transition-colors cursor-pointer">
+                    <div className="w-20 h-20 relative mx-auto mb-2">
+                      <Image 
+                        src={brand.image} 
+                        alt={brand.name}
+                        fill
+                        sizes="(max-width: 80px) 100vw, 80px"
+                        className="object-contain rounded-full"
+                      />
+                    </div>
+                    <p className="mt-2 text-sm text-[#9b8b6f]">{brand.name}</p>
+                  </div>
+                </Link>
               </motion.div>
             ))}
           </AnimatePresence>
