@@ -6,22 +6,22 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 // Agregar URLs de imágenes para cada marca
 const brands = [
-  { name: 'Audi', image: 'https://example.com/audi-logo.png' },
-  { name: 'Aurus', image: 'https://example.com/aurus-logo.png' },
-  { name: 'Bentley', image: 'https://example.com/bentley-logo.png' },
-  { name: 'BMW', image: 'https://example.com/bmw-logo.png' },
-  { name: 'Cadillac', image: 'https://example.com/cadillac-logo.png' },
-  { name: 'Ferrari', image: 'https://example.com/ferrari-logo.png' },
-  { name: 'Lamborghini', image: 'https://example.com/lamborghini-logo.png' },
-  { name: 'Lotus', image: 'https://example.com/lotus-logo.png' },
-  { name: 'Maserati', image: 'https://example.com/maserati-logo.png' },
-  { name: 'Mazda', image: 'https://example.com/mazda-logo.png' },
-  { name: 'McLaren', image: 'https://example.com/mclaren-logo.png' },
-  { name: 'Mercedes', image: 'https://example.com/mercedes-logo.png' },
-  { name: 'Porsche', image: 'https://example.com/porsche-logo.png' },
-  { name: 'Range Rover', image: 'https://example.com/range-rover-logo.png' },
-  { name: 'Rolls Royce', image: 'https://example.com/rolls-royce-logo.png' },
-  { name: 'Tesla', image: 'https://example.com/tesla-logo.png' }
+  { name: 'Audi', image: '/audi-logo.png' },
+  { name: 'Aurus', image: '/aurus-Logo.jpg' },
+  { name: 'Bentley', image: '/bentley-logo.png' },
+  { name: 'BMW', image: '/BMW-logo.png' },
+  { name: 'Cadillac', image: '/cadillac-logo.jpg' },
+  { name: 'Ferrari', image: '/ferrari-logo.jpg' },
+  { name: 'Lamborghini', image: '/lambo-logo.jpg' },
+  { name: 'Lotus', image: '/lotus-logo.jpg' },
+  { name: 'Maserati', image: '/Maserati-logo.jpg' },
+  { name: 'Mazda', image: '/Mazda-logo.png' },
+  { name: 'McLaren', image: '/mclaren-logo.webp' },
+  { name: 'Mercedes', image: '/mercedes-logo.jpg' },
+  { name: 'Porsche', image: '/porsche-logo.png' },
+  { name: 'Range Rover', image: '/range-logo.svg' },
+  { name: 'Rolls Royce', image: '/rolls-logo.png' },
+  { name: 'Tesla', image: '/tesla-logo.png' }
 ]
 
 export function BrandCarousel() {
