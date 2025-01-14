@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+import Image from 'next/image'
 
 const rentals = [
   {
@@ -59,7 +60,7 @@ export default function Rent() {
                   <CardTitle className="text-[#9b8b6f]">{rental.name}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <img src={rental.image} alt={rental.name} className="w-full h-48 object-cover rounded-md mb-4" />
+                  <Image src={rental.image} alt={rental.name} className="w-full h-48 object-cover rounded-md mb-4" />
                   <p className="text-xl font-semibold text-[#9b8b6f] mt-2">{rental.pricePerDay} / day</p>
                 </CardContent>
                 <CardFooter>

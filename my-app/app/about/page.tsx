@@ -43,7 +43,7 @@ export default function About() {
             <div className="bg-zinc-900/50 p-8 rounded-2xl backdrop-blur mb-12">
               <h2 className="text-2xl font-semibold text-[#9b8b6f] mb-4">Enhance Your Journey</h2>
               <p className="text-gray-300 leading-relaxed">
-                Whether you're embarking on a vacation road trip, attending an important business meeting, or 
+                Whether you are embarking on a vacation road trip, attending an important business meeting, or 
                 enjoying a romantic weekend getaway, OLB Motors has the perfect vehicle for you. Our extensive 
                 selection of vehicles in Dubai offers the flexibility to choose a vehicle that perfectly matches 
                 your preferences.
@@ -55,7 +55,7 @@ export default function About() {
               <p className="text-gray-300 leading-relaxed">
                 Our commitment is to provide an affordable service that not only meets but exceeds customer 
                 expectations, as we firmly believe in our satisfaction guarantee. Choose OLB Motors for your 
-                luxury vehicle needs and let us ensure you're on the right path! Consult with our experts to 
+                luxury vehicle needs and let us ensure you are on the right path! Consult with our experts to 
                 explore our various vehicle categories, including exotic, prestige, and powerful cars, as well 
                 as renowned brands like Rolls Royce, Lamborghini, Ferrari, and Porsche.
               </p>
