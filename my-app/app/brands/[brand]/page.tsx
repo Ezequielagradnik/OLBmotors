@@ -1,60 +1,90 @@
 "use client"
 
+import { useState } from 'react'
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
+import Image from "next/image"
 import { notFound } from 'next/navigation'
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
 
 const brandData = {
-  'ferrari': {
-    name: "Ferrari",
-    description: "Experience the pinnacle of Italian automotive excellence.",
+  'range-rover': {
+    name: "Range Rover",
+    description: "Experience the pinnacle of luxury SUVs with Range Rover.",
     vehicles: [
-      { id: 'ferrari-testarossa', name: "Ferrari Testarossa", price: "1,000,000 AED", year: 2023 },
-      { id: 'ferrari-296-gts', name: "Ferrari 296 GTS", price: "1,100,000 AED", year: 2023 },
-      { id: 'ferrari-296-gtb', name: "Ferrari 296 GTB", price: "1,050,000 AED", year: 2023 },
+      { id: 'range-rover-sport', name: "Range Rover Sport", price: 450000, type: "SUV", image: "/range-rover-sport.jpg" },
+    ]
+  },
+  'rolls-royce': {
+    name: "Rolls-Royce",
+    description: "Indulge in the epitome of automotive luxury with Rolls-Royce.",
+    vehicles: [
+      { id: 'rolls-royce-ghost-mansory', name: "Rolls Royce Ghost Mansory", price: 1500000, type: "Sedan", image: "/rolls-royce-ghost.jpg" },
+      { id: 'rolls-royce-cullinan-violet', name: "Rolls Royce Cullinan Violet", price: 2000000, type: "SUV", image: "/rolls-royce-cullinan.jpg" },
+      { id: 'rolls-royce-dawn-grey', name: "Rolls Royce Dawn Grey", price: 1800000, type: "Convertible", image: "/rolls-royce-dawn.jpg" },
     ]
   },
   'lamborghini': {
     name: "Lamborghini",
-    description: "Unleash the power of Italian engineering and design.",
+    description: "Experience the thrill of Italian engineering with Lamborghini.",
     vehicles: [
-      { id: 'lamborghini-urus', name: "Lamborghini Urus", price: "1,200,000 AED", year: 2023 },
-      { id: 'lamborghini-sterrato', name: "Lamborghini Sterrato", price: "1,300,000 AED", year: 2023 },
-      { id: 'lamborghini-huracan-sto', name: "Lamborghini Huracan STO", price: "1,400,000 AED", year: 2023 },
+      { id: 'lamborghini-urus', name: "Lamborghini Urus", price: 1200000, type: "SUV", image: "/lamborghini-urus.jpg" },
+      { id: 'lamborghini-sterrato', name: "Lamborghini Sterrato", price: 1300000, type: "Sport", image: "/lamborghini-sterrato.jpg" },
+      { id: 'lamborghini-huracan-sto', name: "Lamborghini Huracan STO", price: 1400000, type: "Sport", image: "/lamborghini-huracan-sto.jpg" },
     ]
   },
-  'rolls-royce': {
-    name: "Rolls Royce",
-    description: "The ultimate expression of automotive luxury.",
+  'ferrari': {
+    name: "Ferrari",
+    description: "Feel the passion of Italian racing heritage with Ferrari.",
     vehicles: [
-      { id: 'rolls-royce-ghost-mansory', name: "Rolls Royce Ghost Mansory", price: "1,500,000 AED", year: 2023 },
-      { id: 'rolls-royce-cullinan-violet', name: "Rolls Royce Cullinan Violet", price: "2,000,000 AED", year: 2023 },
-      { id: 'rolls-royce-dawn-grey', name: "Rolls Royce Dawn Grey", price: "1,800,000 AED", year: 2023 },
-    ]
-  },
-  'range-rover': {
-    name: "Range Rover",
-    description: "Luxury and capability, perfectly balanced.",
-    vehicles: [
-      { id: 'range-rover-sport', name: "Range Rover Sport", price: "450,000 AED", year: 2023 },
+      { id: 'ferrari-testarossa', name: "Ferrari Testarossa", price: 1000000, type: "Sport", image: "/ferrari-testarossa.jpg" },
+      { id: 'ferrari-296-gts', name: "Ferrari 296 GTS", price: 1100000, type: "Convertible", image: "/ferrari-296-gts.jpg" },
+      { id: 'ferrari-296-gtb', name: "Ferrari 296 GTB", price: 1050000, type: "Sport", image: "/ferrari-296-gtb.jpg" },
     ]
   },
   'bmw': {
     name: "BMW",
-    description: "The ultimate driving machine.",
+    description: "Experience the ultimate driving machine with BMW.",
     vehicles: [
-      { id: 'bmw-x7-40i', name: "BMW X7 40i", price: "500,000 AED", year: 2023 },
+      { id: 'bmw-x7-40i', name: "BMW X7 40i", price: 500000, type: "SUV", image: "/bmw-x7.jpg" },
     ]
-  }
+  },
+}
+
+const currencyRates = {
+  AED: 1,
+  USD: 0.27,
+  EUR: 0.25
 }
 
 export default function BrandPage({ params }: { params: { brand: string } }) {
+  const [selectedType, setSelectedType] = useState("All")
+  const [selectedCurrency, setSelectedCurrency] = useState("AED")
   const brand = brandData[params.brand as keyof typeof brandData]
 
   if (!brand) {
     notFound()
+  }
+
+  const filteredVehicles = brand.vehicles.filter(vehicle => 
+    selectedType === "All" || vehicle.type === selectedType
+  )
+
+  const formatPrice = (price: number) => {
+    const convertedPrice = price * currencyRates[selectedCurrency as keyof typeof currencyRates]
+    return new Intl.NumberFormat('en-US', { 
+      style: 'currency', 
+      currency: selectedCurrency,
+      maximumFractionDigits: 0
+    }).format(convertedPrice)
   }
 
   return (
@@ -74,8 +104,33 @@ export default function BrandPage({ params }: { params: { brand: string } }) {
           </p>
         </div>
 
+        <div className="flex flex-wrap gap-4 mb-8 justify-center">
+          <Select onValueChange={(value) => setSelectedType(value)}>
+            <SelectTrigger className="w-[180px]">
+              <SelectValue placeholder="Vehicle Type" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="All">All Types</SelectItem>
+              <SelectItem value="SUV">SUV</SelectItem>
+              <SelectItem value="Sedan">Sedan</SelectItem>
+              <SelectItem value="Sport">Sport</SelectItem>
+              <SelectItem value="Convertible">Convertible</SelectItem>
+            </SelectContent>
+          </Select>
+          <Select onValueChange={(value) => setSelectedCurrency(value)}>
+            <SelectTrigger className="w-[180px]">
+              <SelectValue placeholder="Currency" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="AED">AED</SelectItem>
+              <SelectItem value="USD">USD</SelectItem>
+              <SelectItem value="EUR">EUR</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {brand.vehicles.map((vehicle) => (
+          {filteredVehicles.map((vehicle) => (
             <motion.div
               key={vehicle.id}
               initial={{ opacity: 0, y: 20 }}
@@ -88,9 +143,17 @@ export default function BrandPage({ params }: { params: { brand: string } }) {
                     <CardTitle className="text-[#9b8b6f]">{vehicle.name}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="w-full h-48 bg-zinc-800 rounded-md mb-4"></div>
-                    <p className="text-gray-400">Year: {vehicle.year}</p>
-                    <p className="text-xl font-semibold text-[#9b8b6f] mt-2">{vehicle.price}</p>
+                    <div className="relative w-full h-48 mb-4">
+                      <Image 
+                        src={vehicle.image} 
+                        alt={vehicle.name}
+                        fill
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        className="object-cover rounded-md"
+                      />
+                    </div>
+                    <p className="text-gray-400">Type: {vehicle.type}</p>
+                    <p className="text-xl font-semibold text-[#9b8b6f] mt-2">{formatPrice(vehicle.price)}</p>
                   </CardContent>
                   <CardFooter>
                     <Button className="w-full bg-[#9b8b6f] text-black hover:bg-[#c4af8d]">View Details</Button>
@@ -104,3 +167,4 @@ export default function BrandPage({ params }: { params: { brand: string } }) {
     </div>
   )
 }
+
