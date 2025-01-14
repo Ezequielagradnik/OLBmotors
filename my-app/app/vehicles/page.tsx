@@ -36,7 +36,7 @@ const currencyRates = {
 export default function Vehicles() {
   const [selectedType, setSelectedType] = useState("All")
   const [selectedCurrency, setSelectedCurrency] = useState("AED")
-  const [priceRange, setPriceRange] = useState([0, 2000000])
+  const [priceRange] = useState([0, 2000000])
 
   const filteredVehicles = vehicles.filter(vehicle => 
     (selectedType === "All" || vehicle.type === selectedType) &&
