@@ -19,7 +19,7 @@ export function Header() {
           <Image 
             src="/an-illustration-of-a-large-golden-olb-te_lJOcQSzsQr-1HLXegteuWA_DyoTyHT9RuaAo3wkMfetYQ.png" 
             alt="OLB Motors Logo" 
-            width={140} 
+            width={100} 
             height={60}
           />
         </Link>
