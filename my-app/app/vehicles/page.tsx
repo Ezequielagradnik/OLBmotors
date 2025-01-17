@@ -13,6 +13,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import { Pagination } from "@/components/Pagination"
+import vehicleData from '@/data/vehicle-data'
 
 const vehicles = [
   { id: 'range-rover-sport', name: "Range Rover Sport", price: 450000, type: "SUV", brand: "Range Rover" },
@@ -125,10 +127,13 @@ const currencyRates = {
   EUR: 0.25
 }
 
+const ITEMS_PER_PAGE = 15
+
 export default function Vehicles() {
   const [selectedType, setSelectedType] = useState("All")
   const [selectedBrand, setSelectedBrand] = useState("All")
   const [selectedCurrency, setSelectedCurrency] = useState("AED")
+  const [currentPage, setCurrentPage] = useState(1)
   const [priceRange] = useState([0, 2000000])
 
   const filteredVehicles = vehicles.filter(vehicle => 
@@ -136,6 +141,17 @@ export default function Vehicles() {
     (selectedBrand === "All" || vehicle.brand === selectedBrand) &&
     vehicle.price >= priceRange[0] && vehicle.price <= priceRange[1]
   )
+
+  const totalPages = Math.ceil(filteredVehicles.length / ITEMS_PER_PAGE)
+  const currentVehicles = filteredVehicles.slice(
+    (currentPage - 1) * ITEMS_PER_PAGE,
+    currentPage * ITEMS_PER_PAGE
+  )
+
+  // Reset to first page when filters change
+  useEffect(() => {
+    setCurrentPage(1)
+  }, [selectedType, selectedBrand])
 
   const formatPrice = (price: number) => {
     const convertedPrice = price * currencyRates[selectedCurrency as keyof typeof currencyRates]
@@ -220,7 +236,7 @@ export default function Vehicles() {
           </Select>
         </motion.div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredVehicles.map((vehicle) => (
+          {currentVehicles.map((vehicle) => (
             <motion.div
               key={vehicle.id}
               initial={{ opacity: 0, y: 20 }}
@@ -233,7 +249,14 @@ export default function Vehicles() {
                     <CardTitle className="text-[#9b8b6f]">{vehicle.name}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="w-full h-48 bg-zinc-800 rounded-md mb-4"></div>
+                    <div className="relative w-full h-48 mb-4 overflow-hidden rounded-md">
+                      <Image
+                        src={vehicleData[vehicle.id]?.images[0] || "/placeholder.svg"}
+                        alt={vehicle.name}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
                     <p className="text-gray-400">Type: {vehicle.type}</p>
                     <p className="text-gray-400">Brand: {vehicle.brand}</p>
                     <p className="text-xl font-semibold text-[#9b8b6f] mt-2">{formatPrice(vehicle.price)}</p>
@@ -246,8 +269,15 @@ export default function Vehicles() {
             </motion.div>
           ))}
         </div>
+        
+        {totalPages > 1 && (
+          <Pagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={setCurrentPage}
+          />
+        )}
       </motion.section>
     </div>
   )
 }
-
