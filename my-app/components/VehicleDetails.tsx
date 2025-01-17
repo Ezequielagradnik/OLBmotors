@@ -1,4 +1,5 @@
-"use client"
+'use client'
+
 import { useState } from 'react'
 import { Vehicle } from '@/types/vehicle'
 import Image from 'next/image'
@@ -13,11 +14,20 @@ interface VehicleDetailsProps {
 
 export default function VehicleDetails({ vehicle }: VehicleDetailsProps) {
   const [isRent, setIsRent] = useState(false)
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0)
 
   const whatsappMessage = encodeURIComponent(
     `Hello! I'm interested in ${isRent ? 'renting' : 'purchasing'} the ${vehicle.name}. Can you provide more information?`
   )
   const whatsappLink = `https://wa.me/971585867713?text=${whatsappMessage}`
+
+  // Create array of all images for easier management
+  const allImages = [...vehicle.images]
+
+  // Function to handle thumbnail clicks
+  const handleThumbnailClick = (index: number) => {
+    setSelectedImageIndex(index)
+  }
 
   return (
     <div className="flex flex-col min-h-screen pt-24">
@@ -36,18 +46,25 @@ export default function VehicleDetails({ vehicle }: VehicleDetailsProps) {
             >
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden mb-4">
                 <Image
-                  src={vehicle.images[0] || "/placeholder.svg"}
-                  alt={vehicle.name}
+                  src={allImages[selectedImageIndex] || "/placeholder.svg"}
+                  alt={`${vehicle.name} - Main View`}
                   layout="fill"
                   objectFit="cover"
+                  className="transition-all duration-300"
                 />
               </div>
-              <div className="grid grid-cols-4 gap-2">
-                {vehicle.images.slice(1).map((image, index) => (
-                  <div key={index} className="relative aspect-square rounded-lg overflow-hidden">
+              <div className="grid grid-cols-5 gap-2">
+                {allImages.map((image, index) => (
+                  <div 
+                    key={index} 
+                    className={`relative aspect-square rounded-lg overflow-hidden cursor-pointer transition-all duration-300 ${
+                      selectedImageIndex === index ? 'ring-2 ring-[#9b8b6f]' : 'hover:opacity-80'
+                    }`}
+                    onClick={() => handleThumbnailClick(index)}
+                  >
                     <Image
                       src={image || "/placeholder.svg"}
-                      alt={`${vehicle.name} - Image ${index + 2}`}
+                      alt={`${vehicle.name} - View ${index + 1}`}
                       layout="fill"
                       objectFit="cover"
                     />
