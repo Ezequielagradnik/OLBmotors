@@ -1,5 +1,6 @@
 import { Vehicle } from '@/types/vehicle'
 import Image from 'next/image'
+import { Button } from "@/components/ui/button"
 
 interface VehicleDetailsProps {
   vehicle: Vehicle
@@ -40,13 +41,21 @@ export default function VehicleDetails({ vehicle }: VehicleDetailsProps) {
           <p className="mb-4">{vehicle.description}</p>
           <p className="mb-4">{vehicle.additionalInfo}</p>
           <h2 className="text-2xl font-semibold mb-2">Features:</h2>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside mb-6">
             {vehicle.features.map((feature, index) => (
               <li key={index}>{feature}</li>
             ))}
           </ul>
+          <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+            <Button className="w-full sm:w-auto">Comprar</Button>
+            <Button className="w-full sm:w-auto" variant="outline">Rentar</Button>
+            <Button className="w-full sm:w-auto bg-green-500 hover:bg-green-600">
+              Contactar por WhatsApp
+            </Button>
+          </div>
         </div>
       </div>
     </div>
   )
 }
+
