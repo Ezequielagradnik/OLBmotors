@@ -44,7 +44,7 @@ const vehicles = [
   { id: 'bmw-m8-competition', name: "BMW M8 Competition", price: 850000, type: "Coupe", brand: "BMW" },
   { id: 'bmw-x6m-competition', name: "BMW X6M Competition", price: 750000, type: "SUV", brand: "BMW" },
   { id: 'bmw-xm', name: "BMW XM", price: 900000, type: "SUV", brand: "BMW" },
-  { id: 'brabus-4x4-xlp-adventure-700', name: "BRABUS 4x4² XLP Adventure 700", price: 1500000, type: "Pickup", brand: "Mercedes" },
+  { id: 'brabus-4x4-xlp-adventure-700', name: "BRABUS 4x4 XLP Adventure 700", price: 1500000, type: "Pickup", brand: "Mercedes" },
   { id: 'cadillac-escalade', name: "Cadillac Escalade", price: 600000, type: "SUV", brand: "Cadillac" },
   { id: 'cadillac-escalade-luxury', name: "Cadillac Escalade Luxury", price: 650000, type: "SUV", brand: "Cadillac" },
   { id: 'cadillac-escalade-mansory', name: "Cadillac Escalade Mansory", price: 850000, type: "SUV", brand: "Cadillac" },

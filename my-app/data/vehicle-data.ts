@@ -14,11 +14,11 @@ const vehicleData: VehicleData = {
       "Meridian™ Sound System"
     ],
     images: [
-      "/images/range-rover-sport-1.jpg",
-      "/images/range-rover-sport-2.jpg",
-      "/images/range-rover-sport-3.jpg",
-      "/images/range-rover-sport-4.jpg",
-      "/images/range-rover-sport-5.jpg"
+      "../../RangeRover-sport/Range-Sport-1ra.jpg",
+      "../../RangeRover-sport/Range-interior-parte-adelante.jpg",
+      "../../RangeRover-sport/range-interior-parte-adelante-2da.jpg",
+      "../../RangeRover-sport/Range-parte-exterior-atras.jpg",
+      "../../RangeRover-sport/range-parte-interior-atras.jpg"
     ]
   },
   "rolls-royce-ghost-mansory": { 
