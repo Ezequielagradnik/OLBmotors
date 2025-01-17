@@ -3,14 +3,18 @@ import vehicleData from '@/data/vehicle-data'
 import VehicleDetails from '@/components/VehicleDetails'
 import { Vehicle } from '@/types/vehicle'
 
-export default function VehiclePage({ params }: { params: { id: string } }) {
-  const vehicle = vehicleData[params.id] as Vehicle | undefined
+interface PageProps {
+  params: { id: string }
+}
+
+export default function VehiclePage({ params }: PageProps) {
+  const vehicle = vehicleData[params.id as keyof typeof vehicleData]
 
   if (!vehicle) {
     notFound()
   }
 
-  return <VehicleDetails vehicle={vehicle} />
+  return <VehicleDetails vehicle={vehicle as Vehicle} />
 }
 
 export function generateStaticParams() {
