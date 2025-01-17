@@ -34,11 +34,11 @@ const vehicleData: VehicleData = {
       "Advanced Driver Assistance Systems"
     ],
     images: [
-      "/images/rolls-royce-ghost-mansory-1.jpg",
-      "/images/rolls-royce-ghost-mansory-2.jpg",
-      "/images/rolls-royce-ghost-mansory-3.jpg",
-      "/images/rolls-royce-ghost-mansory-4.jpg",
-      "/images/rolls-royce-ghost-mansory-5.jpg"
+      "../../RollsRoyce-ghost-mansory/Ghost-mansory-1ra.jpg",
+      "../../RollsRoyce-ghost-mansory/Ghost-interior-parte-adelante.jpg",
+      "../../RollsRoyce-ghost-mansory/Ghost-interior-parte-adelante-2da.jpg",
+      "../../RollsRoyce-ghost-mansory/Ghost-parte-exterior-atras.jpg",
+      "../../RollsRoyce-ghost-mansory/Ghost-parte-interior-atras.jpg"
     ]
   },
   "rolls-royce-cullinan-violet": { 
@@ -54,11 +54,11 @@ const vehicleData: VehicleData = {
       "Panoramic Sunroof"
     ],
     images: [
-      "/images/rolls-royce-cullinan-violet-1.jpg",
-      "/images/rolls-royce-cullinan-violet-2.jpg",
-      "/images/rolls-royce-cullinan-violet-3.jpg",
-      "/images/rolls-royce-cullinan-violet-4.jpg",
-      "/images/rolls-royce-cullinan-violet-5.jpg"
+      "../../RollsRoyce-cullinan-violet/Cullinan-violet-1ra.jpg",
+      "../../RollsRoyce-cullinan-violet/Cullinan-interior-parte-adelante.jpg",
+      "../../RollsRoyce-cullinan-violet/Cullinan-interior-parte-adelante-2da.jpg",
+      "../../RollsRoyce-cullinan-violet/Cullinan-parte-exterior-atras.jpg",
+      "../../RollsRoyce-cullinan-violet/Cullinan-parte-interior-atras.jpg"
     ]
   },
   "rolls-royce-dawn-grey": { 
@@ -74,11 +74,11 @@ const vehicleData: VehicleData = {
       "Rolls-Royce Signature Audio"
     ],
     images: [
-      "/images/rolls-royce-dawn-grey-1.jpg",
-      "/images/rolls-royce-dawn-grey-2.jpg",
-      "/images/rolls-royce-dawn-grey-3.jpg",
-      "/images/rolls-royce-dawn-grey-4.jpg",
-      "/images/rolls-royce-dawn-grey-5.jpg"
+      "../../RollsRoyce-dawn-grey/Dawn-grey-1ra.jpg",
+      "../../RollsRoyce-dawn-grey/Dawn-interior-parte-adelante.jpg",
+      "../../RollsRoyce-dawn-grey/Dawn-interior-parte-adelante-2da.jpg",
+      "../../RollsRoyce-dawn-grey/Dawn-parte-exterior-atras.jpg",
+      "../../RollsRoyce-dawn-grey/Dawn-parte-interior-atras.jpg"
     ]
   },
   "lamborghini-urus": { 
@@ -94,11 +94,11 @@ const vehicleData: VehicleData = {
       "Carbon Ceramic Brakes"
     ],
     images: [
-      "/images/lamborghini-urus-1.jpg",
-      "/images/lamborghini-urus-2.jpg",
-      "/images/lamborghini-urus-3.jpg",
-      "/images/lamborghini-urus-4.jpg",
-      "/images/lamborghini-urus-5.jpg"
+      "../../Lamborghini-urus/Urus-1ra.jpg",
+      "../../Lamborghini-urus/Urus-interior-parte-adelante.jpg",
+      "../../Lamborghini-urus/Urus-interior-parte-adelante-2da.jpg",
+      "../../Lamborghini-urus/Urus-parte-exterior-atras.jpg",
+      "../../Lamborghini-urus/Urus-parte-interior-atras.jpg"
     ]
   },
   "lamborghini-sterrato": { 
@@ -114,11 +114,11 @@ const vehicleData: VehicleData = {
       "Rally-Inspired Design"
     ],
     images: [
-      "/images/lamborghini-sterrato-1.jpg",
-      "/images/lamborghini-sterrato-2.jpg",
-      "/images/lamborghini-sterrato-3.jpg",
-      "/images/lamborghini-sterrato-4.jpg",
-      "/images/lamborghini-sterrato-5.jpg"
+      "../../Lamborghini-sterrato/Sterrato-1ra.jpg",
+      "../../Lamborghini-sterrato/Sterrato-interior-parte-adelante.jpg",
+      "../../Lamborghini-sterrato/Sterrato-interior-parte-adelante-2da.jpg",
+      "../../Lamborghini-sterrato/Sterrato-parte-exterior-atras.jpg",
+      "../../Lamborghini-sterrato/Sterrato-parte-interior-atras.jpg"
     ]
   },
   "lamborghini-huracan-sto": { 
@@ -134,11 +134,11 @@ const vehicleData: VehicleData = {
       "Race-Inspired Aerodynamics"
     ],
     images: [
-      "/images/lamborghini-huracan-sto-1.jpg",
-      "/images/lamborghini-huracan-sto-2.jpg",
-      "/images/lamborghini-huracan-sto-3.jpg",
-      "/images/lamborghini-huracan-sto-4.jpg",
-      "/images/lamborghini-huracan-sto-5.jpg"
+      "../../Lamborghini-huracan-sto/Huracan-sto-1ra.jpg",
+      "../../Lamborghini-huracan-sto/Huracan-interior-parte-adelante.jpg",
+      "../../Lamborghini-huracan-sto/Huracan-interior-parte-adelante-2da.jpg",
+      "../../Lamborghini-huracan-sto/Huracan-parte-exterior-atras.jpg",
+      "../../Lamborghini-huracan-sto/Huracan-parte-interior-atras.jpg"
     ]
   },
   "ferrari-testarossa": { 
@@ -154,11 +154,11 @@ const vehicleData: VehicleData = {
       "Gated Manual Transmission"
     ],
     images: [
-      "/images/ferrari-testarossa-1.jpg",
-      "/images/ferrari-testarossa-2.jpg",
-      "/images/ferrari-testarossa-3.jpg",
-      "/images/ferrari-testarossa-4.jpg",
-      "/images/ferrari-testarossa-5.jpg"
+      "../../Ferrari-testarossa/Testarossa-1ra.jpg",
+      "../../Ferrari-testarossa/Testarossa-interior-parte-adelante.jpg",
+      "../../Ferrari-testarossa/Testarossa-interior-parte-adelante-2da.jpg",
+      "../../Ferrari-testarossa/Testarossa-parte-exterior-atras.jpg",
+      "../../Ferrari-testarossa/Testarossa-parte-interior-atras.jpg"
     ]
   },
   "ferrari-296-gts": { 
@@ -174,11 +174,11 @@ const vehicleData: VehicleData = {
       "Advanced Vehicle Dynamics"
     ],
     images: [
-      "/images/ferrari-296-gts-1.jpg",
-      "/images/ferrari-296-gts-2.jpg",
-      "/images/ferrari-296-gts-3.jpg",
-      "/images/ferrari-296-gts-4.jpg",
-      "/images/ferrari-296-gts-5.jpg"
+      "../../Ferrari-296-gts/296-gts-1ra.jpg",
+      "../../Ferrari-296-gts/296-interior-parte-adelante.jpg",
+      "../../Ferrari-296-gts/296-interior-parte-adelante-2da.jpg",
+      "../../Ferrari-296-gts/296-parte-exterior-atras.jpg",
+      "../../Ferrari-296-gts/296-parte-interior-atras.jpg"
     ]
   },
   "ferrari-296-gtb": { 
@@ -194,11 +194,11 @@ const vehicleData: VehicleData = {
       "8-Speed Dual-Clutch Transmission"
     ],
     images: [
-      "/images/ferrari-296-gtb-1.jpg",
-      "/images/ferrari-296-gtb-2.jpg",
-      "/images/ferrari-296-gtb-3.jpg",
-      "/images/ferrari-296-gtb-4.jpg",
-      "/images/ferrari-296-gtb-5.jpg"
+      "../../Ferrari-296-gtb/296-gtb-1ra.jpg",
+      "../../Ferrari-296-gtb/296-interior-parte-adelante.jpg",
+      "../../Ferrari-296-gtb/296-interior-parte-adelante-2da.jpg",
+      "../../Ferrari-296-gtb/296-parte-exterior-atras.jpg",
+      "../../Ferrari-296-gtb/296-parte-interior-atras.jpg"
     ]
   },
   "bmw-x7-40i": { 
@@ -214,11 +214,11 @@ const vehicleData: VehicleData = {
       "BMW Live Cockpit Professional"
     ],
     images: [
-      "/images/bmw-x7-40i-1.jpg",
-      "/images/bmw-x7-40i-2.jpg",
-      "/images/bmw-x7-40i-3.jpg",
-      "/images/bmw-x7-40i-4.jpg",
-      "/images/bmw-x7-40i-5.jpg"
+      "../../BMW-x7-40i/X7-40i-1ra.jpg",
+      "../../BMW-x7-40i/X7-interior-parte-adelante.jpg",
+      "../../BMW-x7-40i/X7-interior-parte-adelante-2da.jpg",
+      "../../BMW-x7-40i/X7-parte-exterior-atras.jpg",
+      "../../BMW-x7-40i/X7-parte-interior-atras.jpg"
     ]
   },
   "audi-r8": {
@@ -234,11 +234,11 @@ const vehicleData: VehicleData = {
       "Virtual Cockpit"
     ],
     images: [
-      "/images/audi-r8-1.jpg",
-      "/images/audi-r8-2.jpg",
-      "/images/audi-r8-3.jpg",
-      "/images/audi-r8-4.jpg",
-      "/images/audi-r8-5.jpg"
+      "../../Audi-r8/R8-1ra.jpg",
+      "../../Audi-r8/R8-interior-parte-adelante.jpg",
+      "../../Audi-r8/R8-interior-parte-adelante-2da.jpg",
+      "../../Audi-r8/R8-parte-exterior-atras.jpg",
+      "../../Audi-r8/R8-parte-interior-atras.jpg"
     ]
   },
   "audi-rs6": {
@@ -254,11 +254,11 @@ const vehicleData: VehicleData = {
       "RS Sport Exhaust System"
     ],
     images: [
-      "/images/audi-rs6-1.jpg",
-      "/images/audi-rs6-2.jpg",
-      "/images/audi-rs6-3.jpg",
-      "/images/audi-rs6-4.jpg",
-      "/images/audi-rs6-5.jpg"
+      "../../Audi-rs6/RS6-1ra.jpg",
+      "../../Audi-rs6/RS6-interior-parte-adelante.jpg",
+      "../../Audi-rs6/RS6-interior-parte-adelante-2da.jpg",
+      "../../Audi-rs6/RS6-parte-exterior-atras.jpg",
+      "../../Audi-rs6/RS6-parte-interior-atras.jpg"
     ]
   },
   "audi-rs6-mansory-black-yellow": {
@@ -274,11 +274,11 @@ const vehicleData: VehicleData = {
       "Enhanced Aerodynamics Package"
     ],
     images: [
-      "/images/audi-rs6-mansory-black-yellow-1.jpg",
-      "/images/audi-rs6-mansory-black-yellow-2.jpg",
-      "/images/audi-rs6-mansory-black-yellow-3.jpg",
-      "/images/audi-rs6-mansory-black-yellow-4.jpg",
-      "/images/audi-rs6-mansory-black-yellow-5.jpg"
+      "../../Audi-rs6-mansory-black-yellow/RS6-mansory-black-yellow-1ra.jpg",
+      "../../Audi-rs6-mansory-black-yellow/RS6-mansory-black-yellow-interior-parte-adelante.jpg",
+      "../../Audi-rs6-mansory-black-yellow/RS6-mansory-black-yellow-interior-parte-adelante-2da.jpg",
+      "../../Audi-rs6-mansory-black-yellow/RS6-mansory-black-yellow-parte-exterior-atras.jpg",
+      "../../Audi-rs6-mansory-black-yellow/RS6-mansory-black-yellow-parte-interior-atras.jpg"
     ]
   },
   "aurus-senat": {
@@ -294,11 +294,11 @@ const vehicleData: VehicleData = {
       "Bespoke Interior Options"
     ],
     images: [
-      "/images/aurus-senat-1.jpg",
-      "/images/aurus-senat-2.jpg",
-      "/images/aurus-senat-3.jpg",
-      "/images/aurus-senat-4.jpg",
-      "/images/aurus-senat-5.jpg"
+      "../../Aurus-senat/Senat-1ra.jpg",
+      "../../Aurus-senat/Senat-interior-parte-adelante.jpg",
+      "../../Aurus-senat/Senat-interior-parte-adelante-2da.jpg",
+      "../../Aurus-senat/Senat-parte-exterior-atras.jpg",
+      "../../Aurus-senat/Senat-parte-interior-atras.jpg"
     ]
   },
   "bentley-bentayga": {
@@ -314,11 +314,11 @@ const vehicleData: VehicleData = {
       "Handcrafted Interior"
     ],
     images: [
-      "/images/bentley-bentayga-1.jpg",
-      "/images/bentley-bentayga-2.jpg",
-      "/images/bentley-bentayga-3.jpg",
-      "/images/bentley-bentayga-4.jpg",
-      "/images/bentley-bentayga-5.jpg"
+      "../../Bentley-bentayga/Bentayga-1ra.jpg",
+      "../../Bentley-bentayga/Bentayga-interior-parte-adelante.jpg",
+      "../../Bentley-bentayga/Bentayga-interior-parte-adelante-2da.jpg",
+      "../../Bentley-bentayga/Bentayga-parte-exterior-atras.jpg",
+      "../../Bentley-bentayga/Bentayga-parte-interior-atras.jpg"
     ]
   },
   "bentley-continental-gtc-w12": {
@@ -334,11 +334,11 @@ const vehicleData: VehicleData = {
       "Naim for Bentley Audio System"
     ],
     images: [
-      "/images/bentley-continental-gtc-w12-1.jpg",
-      "/images/bentley-continental-gtc-w12-2.jpg",
-      "/images/bentley-continental-gtc-w12-3.jpg",
-      "/images/bentley-continental-gtc-w12-4.jpg",
-      "/images/bentley-continental-gtc-w12-5.jpg"
+      "../../Bentley-continental-gtc-w12/Continental-gtc-w12-1ra.jpg",
+      "../../Bentley-continental-gtc-w12/Continental-gtc-w12-interior-parte-adelante.jpg",
+      "../../Bentley-continental-gtc-w12/Continental-gtc-w12-interior-parte-adelante-2da.jpg",
+      "../../Bentley-continental-gtc-w12/Continental-gtc-w12-parte-exterior-atras.jpg",
+      "../../Bentley-continental-gtc-w12/Continental-gtc-w12-parte-interior-atras.jpg"
     ]
   },
   "bmw-430i-cabrio": {
@@ -354,11 +354,11 @@ const vehicleData: VehicleData = {
       "Harman Kardon Surround Sound System"
     ],
     images: [
-      "/images/bmw-430i-cabrio-1.jpg",
-      "/images/bmw-430i-cabrio-2.jpg",
-      "/images/bmw-430i-cabrio-3.jpg",
-      "/images/bmw-430i-cabrio-4.jpg",
-      "/images/bmw-430i-cabrio-5.jpg"
+      "../../BMW-430i-cabrio/430i-cabrio-1ra.jpg",
+      "../../BMW-430i-cabrio/430i-cabrio-interior-parte-adelante.jpg",
+      "../../BMW-430i-cabrio/430i-cabrio-interior-parte-adelante-2da.jpg",
+      "../../BMW-430i-cabrio/430i-cabrio-parte-exterior-atras.jpg",
+      "../../BMW-430i-cabrio/430i-cabrio-parte-interior-atras.jpg"
     ]
   },
   "bmw-430i-cabrio-green": {
@@ -374,11 +374,11 @@ const vehicleData: VehicleData = {
       "BMW Live Cockpit Professional"
     ],
     images: [
-      "/images/bmw-430i-cabrio-green-1.jpg",
-      "/images/bmw-430i-cabrio-green-2.jpg",
-      "/images/bmw-430i-cabrio-green-3.jpg",
-      "/images/bmw-430i-cabrio-green-4.jpg",
-      "/images/bmw-430i-cabrio-green-5.jpg"
+      "../../BMW-430i-cabrio-green/430i-cabrio-green-1ra.jpg",
+      "../../BMW-430i-cabrio-green/430i-cabrio-green-interior-parte-adelante.jpg",
+      "../../BMW-430i-cabrio-green/430i-cabrio-green-interior-parte-adelante-2da.jpg",
+      "../../BMW-430i-cabrio-green/430i-cabrio-green-parte-exterior-atras.jpg",
+      "../../BMW-430i-cabrio-green/430i-cabrio-green-parte-interior-atras.jpg"
     ]
   },
   "bmw-430i-cabrio-grey": {
@@ -394,11 +394,11 @@ const vehicleData: VehicleData = {
       "BMW Live Cockpit Professional"
     ],
     images: [
-      "/images/bmw-430i-cabrio-grey-1.jpg",
-      "/images/bmw-430i-cabrio-grey-2.jpg",
-      "/images/bmw-430i-cabrio-grey-3.jpg",
-      "/images/bmw-430i-cabrio-grey-4.jpg",
-      "/images/bmw-430i-cabrio-grey-5.jpg"
+      "../../BMW-430i-cabrio-grey/430i-cabrio-grey-1ra.jpg",
+      "../../BMW-430i-cabrio-grey/430i-cabrio-grey-interior-parte-adelante.jpg",
+      "../../BMW-430i-cabrio-grey/430i-cabrio-grey-interior-parte-adelante-2da.jpg",
+      "../../BMW-430i-cabrio-grey/430i-cabrio-grey-parte-exterior-atras.jpg",
+      "../../BMW-430i-cabrio-grey/430i-cabrio-grey-parte-interior-atras.jpg"
     ]
   },
   "bmw-520i-2024-new-black": {
@@ -414,11 +414,11 @@ const vehicleData: VehicleData = {
       "Sleek Black Exterior"
     ],
     images: [
-      "/images/bmw-520i-2024-new-black-1.jpg",
-      "/images/bmw-520i-2024-new-black-2.jpg",
-      "/images/bmw-520i-2024-new-black-3.jpg",
-      "/images/bmw-520i-2024-new-black-4.jpg",
-      "/images/bmw-520i-2024-new-black-5.jpg"
+      "../../BMW-520i-2024-new-black/520i-2024-new-black-1ra.jpg",
+      "../../BMW-520i-2024-new-black/520i-2024-new-black-interior-parte-adelante.jpg",
+      "../../BMW-520i-2024-new-black/520i-2024-new-black-interior-parte-adelante-2da.jpg",
+      "../../BMW-520i-2024-new-black/520i-2024-new-black-parte-exterior-atras.jpg",
+      "../../BMW-520i-2024-new-black/520i-2024-new-black-parte-interior-atras.jpg"
     ]
   },
   "bmw-520i-2024-new-grey": {
@@ -434,11 +434,11 @@ const vehicleData: VehicleData = {
       "Elegant Grey Exterior"
     ],
     images: [
-      "/images/bmw-520i-2024-new-grey-1.jpg",
-      "/images/bmw-520i-2024-new-grey-2.jpg",
-      "/images/bmw-520i-2024-new-grey-3.jpg",
-      "/images/bmw-520i-2024-new-grey-4.jpg",
-      "/images/bmw-520i-2024-new-grey-5.jpg"
+      "../../BMW-520i-2024-new-grey/520i-2024-new-grey-1ra.jpg",
+      "../../BMW-520i-2024-new-grey/520i-2024-new-grey-interior-parte-adelante.jpg",
+      "../../BMW-520i-2024-new-grey/520i-2024-new-grey-interior-parte-adelante-2da.jpg",
+      "../../BMW-520i-2024-new-grey/520i-2024-new-grey-parte-exterior-atras.jpg",
+      "../../BMW-520i-2024-new-grey/520i-2024-new-grey-parte-interior-atras.jpg"
     ]
   },
   "bmw-530i-m-package": {
@@ -454,11 +454,11 @@ const vehicleData: VehicleData = {
       "BMW Live Cockpit Professional"
     ],
     images: [
-      "/images/bmw-530i-m-package-1.jpg",
-      "/images/bmw-530i-m-package-2.jpg",
-      "/images/bmw-530i-m-package-3.jpg",
-      "/images/bmw-530i-m-package-4.jpg",
-      "/images/bmw-530i-m-package-5.jpg"
+      "../../BMW-530i-m-package/530i-m-package-1ra.jpg",
+      "../../BMW-530i-m-package/530i-m-package-interior-parte-adelante.jpg",
+      "../../BMW-530i-m-package/530i-m-package-interior-parte-adelante-2da.jpg",
+      "../../BMW-530i-m-package/530i-m-package-parte-exterior-atras.jpg",
+      "../../BMW-530i-m-package/530i-m-package-parte-interior-atras.jpg"
     ]
   },
   "bmw-840i-cabrio": {
@@ -474,11 +474,11 @@ const vehicleData: VehicleData = {
       "Bowers & Wilkins Diamond Surround Sound System"
     ],
     images: [
-      "/images/bmw-840i-cabrio-1.jpg",
-      "/images/bmw-840i-cabrio-2.jpg",
-      "/images/bmw-840i-cabrio-3.jpg",
-      "/images/bmw-840i-cabrio-4.jpg",
-      "/images/bmw-840i-cabrio-5.jpg"
+      "../../BMW-840i-cabrio/840i-cabrio-1ra.jpg",
+      "../../BMW-840i-cabrio/840i-cabrio-interior-parte-adelante.jpg",
+      "../../BMW-840i-cabrio/840i-cabrio-interior-parte-adelante-2da.jpg",
+      "../../BMW-840i-cabrio/840i-cabrio-parte-exterior-atras.jpg",
+      "../../BMW-840i-cabrio/840i-cabrio-parte-interior-atras.jpg"
     ]
   },
   "bmw-m8-competition": {
@@ -494,11 +494,11 @@ const vehicleData: VehicleData = {
       "M Carbon Ceramic Brakes"
     ],
     images: [
-      "/images/bmw-m8-competition-1.jpg",
-      "/images/bmw-m8-competition-2.jpg",
-      "/images/bmw-m8-competition-3.jpg",
-      "/images/bmw-m8-competition-4.jpg",
-      "/images/bmw-m8-competition-5.jpg"
+      "../../BMW-m8-competition/M8-competition-1ra.jpg",
+      "../../BMW-m8-competition/M8-competition-interior-parte-adelante.jpg",
+      "../../BMW-m8-competition/M8-competition-interior-parte-adelante-2da.jpg",
+      "../../BMW-m8-competition/M8-competition-parte-exterior-atras.jpg",
+      "../../BMW-m8-competition/M8-competition-parte-interior-atras.jpg"
     ]
   },
   "bmw-x6m-competition": {
@@ -514,11 +514,11 @@ const vehicleData: VehicleData = {
       "M Compound Brakes"
     ],
     images: [
-      "/images/bmw-x6m-competition-1.jpg",
-      "/images/bmw-x6m-competition-2.jpg",
-      "/images/bmw-x6m-competition-3.jpg",
-      "/images/bmw-x6m-competition-4.jpg",
-      "/images/bmw-x6m-competition-5.jpg"
+      "../../BMW-x6m-competition/X6M-competition-1ra.jpg",
+      "../../BMW-x6m-competition/X6M-competition-interior-parte-adelante.jpg",
+      "../../BMW-x6m-competition/X6M-competition-interior-parte-adelante-2da.jpg",
+      "../../BMW-x6m-competition/X6M-competition-parte-exterior-atras.jpg",
+      "../../BMW-x6m-competition/X6M-competition-parte-interior-atras.jpg"
     ]
   },
   "bmw-xm": {
@@ -534,11 +534,11 @@ const vehicleData: VehicleData = {
       "BMW Curved Display"
     ],
     images: [
-      "/images/bmw-xm-1.jpg",
-      "/images/bmw-xm-2.jpg",
-      "/images/bmw-xm-3.jpg",
-      "/images/bmw-xm-4.jpg",
-      "/images/bmw-xm-5.jpg"
+      "../../BMW-xm/XM-1ra.jpg",
+      "../../BMW-xm/XM-interior-parte-adelante.jpg",
+      "../../BMW-xm/XM-interior-parte-adelante-2da.jpg",
+      "../../BMW-xm/XM-parte-exterior-atras.jpg",
+      "../../BMW-xm/XM-parte-interior-atras.jpg"
     ]
   },
   "brabus-4x4-xlp-adventure-700": {
@@ -554,11 +554,11 @@ const vehicleData: VehicleData = {
       "BRABUS Fine Leather Interior"
     ],
     images: [
-      "/images/brabus-4x4-xlp-adventure-700-1.jpg",
-      "/images/brabus-4x4-xlp-adventure-700-2.jpg",
-      "/images/brabus-4x4-xlp-adventure-700-3.jpg",
-      "/images/brabus-4x4-xlp-adventure-700-4.jpg",
-      "/images/brabus-4x4-xlp-adventure-700-5.jpg"
+      "../../Brabus-4x4-xlp-adventure-700/Brabus-4x4-xlp-adventure-700-1ra.jpg",
+      "../../Brabus-4x4-xlp-adventure-700/Brabus-4x4-xlp-adventure-700-interior-parte-adelante.jpg",
+      "../../Brabus-4x4-xlp-adventure-700/Brabus-4x4-xlp-adventure-700-interior-parte-adelante-2da.jpg",
+      "../../Brabus-4x4-xlp-adventure-700/Brabus-4x4-xlp-adventure-700-parte-exterior-atras.jpg",
+      "../../Brabus-4x4-xlp-adventure-700/Brabus-4x4-xlp-adventure-700-parte-interior-atras.jpg"
     ]
   },
   "cadillac-escalade": {
@@ -574,11 +574,11 @@ const vehicleData: VehicleData = {
       "Super Cruise Hands-Free Driving"
     ],
     images: [
-      "/images/cadillac-escalade-1.jpg",
-      "/images/cadillac-escalade-2.jpg",
-      "/images/cadillac-escalade-3.jpg",
-      "/images/cadillac-escalade-4.jpg",
-      "/images/cadillac-escalade-5.jpg"
+      "../../Cadillac-escalade/Escalade-1ra.jpg",
+      "../../Cadillac-escalade/Escalade-interior-parte-adelante.jpg",
+      "../../Cadillac-escalade/Escalade-interior-parte-adelante-2da.jpg",
+      "../../Cadillac-escalade/Escalade-parte-exterior-atras.jpg",
+      "../../Cadillac-escalade/Escalade-parte-interior-atras.jpg"
     ]
   },
   "cadillac-escalade-luxury": {
@@ -594,11 +594,11 @@ const vehicleData: VehicleData = {
       "Panoramic Sunroof"
     ],
     images: [
-      "/images/cadillac-escalade-luxury-1.jpg",
-      "/images/cadillac-escalade-luxury-2.jpg",
-      "/images/cadillac-escalade-luxury-3.jpg",
-      "/images/cadillac-escalade-luxury-4.jpg",
-      "/images/cadillac-escalade-luxury-5.jpg"
+      "../../Cadillac-escalade-luxury/Escalade-luxury-1ra.jpg",
+      "../../Cadillac-escalade-luxury/Escalade-luxury-interior-parte-adelante.jpg",
+      "../../Cadillac-escalade-luxury/Escalade-luxury-interior-parte-adelante-2da.jpg",
+      "../../Cadillac-escalade-luxury/Escalade-luxury-parte-exterior-atras.jpg",
+      "../../Cadillac-escalade-luxury/Escalade-luxury-parte-interior-atras.jpg"
     ]
   },
   "cadillac-escalade-mansory": {
@@ -613,11 +613,11 @@ const vehicleData: VehicleData = {
       "Custom Mansory Interior",
       "Enhanced Sound System"
     ],    images: [
-      "/images/cadillac-escalade-mansory-1.jpg",
-      "/images/cadillac-escalade-mansory-2.jpg",
-      "/images/cadillac-escalade-mansory-3.jpg",
-      "/images/cadillac-escalade-mansory-4.jpg",
-      "/images/cadillac-escalade-mansory-5.jpg"
+      "../../Cadillac-escalade-mansory/Escalade-mansory-1ra.jpg",
+      "../../Cadillac-escalade-mansory/Escalade-mansory-interior-parte-adelante.jpg",
+      "../../Cadillac-escalade-mansory/Escalade-mansory-interior-parte-adelante-2da.jpg",
+      "../../Cadillac-escalade-mansory/Escalade-mansory-parte-exterior-atras.jpg",
+      "../../Cadillac-escalade-mansory/Escalade-mansory-parte-interior-atras.jpg"
     ]
   },
   "cadillac-escalade-matte": {
@@ -633,11 +633,11 @@ const vehicleData: VehicleData = {
       "Super Cruise Hands-Free Driving"
     ],
     images: [
-      "/images/cadillac-escalade-matte-1.jpg",
-      "/images/cadillac-escalade-matte-2.jpg",
-      "/images/cadillac-escalade-matte-3.jpg",
-      "/images/cadillac-escalade-matte-4.jpg",
-      "/images/cadillac-escalade-matte-5.jpg"
+      "../../Cadillac-escalade-matte/Escalade-matte-1ra.jpg",
+      "../../Cadillac-escalade-matte/Escalade-matte-interior-parte-adelante.jpg",
+      "../../Cadillac-escalade-matte/Escalade-matte-interior-parte-adelante-2da.jpg",
+      "../../Cadillac-escalade-matte/Escalade-matte-parte-exterior-atras.jpg",
+      "../../Cadillac-escalade-matte/Escalade-matte-parte-interior-atras.jpg"
     ]
   },
   "cadillac-escalade-v": {
@@ -653,11 +653,11 @@ const vehicleData: VehicleData = {
       "V-Series Performance Interior"
     ],
     images: [
-      "/images/cadillac-escalade-v-1.jpg",
-      "/images/cadillac-escalade-v-2.jpg",
-      "/images/cadillac-escalade-v-3.jpg",
-      "/images/cadillac-escalade-v-4.jpg",
-      "/images/cadillac-escalade-v-5.jpg"
+      "../../Cadillac-escalade-v/Escalade-v-1ra.jpg",
+      "../../Cadillac-escalade-v/Escalade-v-interior-parte-adelante.jpg",
+      "../../Cadillac-escalade-v/Escalade-v-interior-parte-adelante-2da.jpg",
+      "../../Cadillac-escalade-v/Escalade-v-parte-exterior-atras.jpg",
+      "../../Cadillac-escalade-v/Escalade-v-parte-interior-atras.jpg"
     ]
   },
   "ferrari-812-superfast": {
@@ -673,11 +673,11 @@ const vehicleData: VehicleData = {
       "Ferrari Power Oversteer"
     ],
     images: [
-      "/images/ferrari-812-superfast-1.jpg",
-      "/images/ferrari-812-superfast-2.jpg",
-      "/images/ferrari-812-superfast-3.jpg",
-      "/images/ferrari-812-superfast-4.jpg",
-      "/images/ferrari-812-superfast-5.jpg"
+      "../../Ferrari-812-superfast/812-superfast-1ra.jpg",
+      "../../Ferrari-812-superfast/812-superfast-interior-parte-adelante.jpg",
+      "../../Ferrari-812-superfast/812-superfast-interior-parte-adelante-2da.jpg",
+      "../../Ferrari-812-superfast/812-superfast-parte-exterior-atras.jpg",
+      "../../Ferrari-812-superfast/812-superfast-parte-interior-atras.jpg"
     ]
   },
   "ferrari-f8-spider": {
@@ -693,11 +693,11 @@ const vehicleData: VehicleData = {
       "Ferrari Dynamic Enhancer"
     ],
     images: [
-      "/images/ferrari-f8-spider-1.jpg",
-      "/images/ferrari-f8-spider-2.jpg",
-      "/images/ferrari-f8-spider-3.jpg",
-      "/images/ferrari-f8-spider-4.jpg",
-      "/images/ferrari-f8-spider-5.jpg"
+      "../../Ferrari-f8-spider/F8-spider-1ra.jpg",
+      "../../Ferrari-f8-spider/F8-spider-interior-parte-adelante.jpg",
+      "../../Ferrari-f8-spider/F8-spider-interior-parte-adelante-2da.jpg",
+      "../../Ferrari-f8-spider/F8-spider-parte-exterior-atras.jpg",
+      "../../Ferrari-f8-spider/F8-spider-parte-interior-atras.jpg"
     ]
   },
   "ferrari-portofino": {
@@ -713,11 +713,11 @@ const vehicleData: VehicleData = {
       "Ferrari Power Transfer"
     ],
     images: [
-      "/images/ferrari-portofino-1.jpg",
-      "/images/ferrari-portofino-2.jpg",
-      "/images/ferrari-portofino-3.jpg",
-      "/images/ferrari-portofino-4.jpg",
-      "/images/ferrari-portofino-5.jpg"
+      "../../Ferrari-portofino/Portofino-1ra.jpg",
+      "../../Ferrari-portofino/Portofino-interior-parte-adelante.jpg",
+      "../../Ferrari-portofino/Portofino-interior-parte-adelante-2da.jpg",
+      "../../Ferrari-portofino/Portofino-parte-exterior-atras.jpg",
+      "../../Ferrari-portofino/Portofino-parte-interior-atras.jpg"
     ]
   },
   "ferrari-roma": {
@@ -733,11 +733,11 @@ const vehicleData: VehicleData = {
       "Ferrari Dynamic Enhancer"
     ],
     images: [
-      "/images/ferrari-roma-1.jpg",
-      "/images/ferrari-roma-2.jpg",
-      "/images/ferrari-roma-3.jpg",
-      "/images/ferrari-roma-4.jpg",
-      "/images/ferrari-roma-5.jpg"
+      "../../Ferrari-roma/Roma-1ra.jpg",
+      "../../Ferrari-roma/Roma-interior-parte-adelante.jpg",
+      "../../Ferrari-roma/Roma-interior-parte-adelante-2da.jpg",
+      "../../Ferrari-roma/Roma-parte-exterior-atras.jpg",
+      "../../Ferrari-roma/Roma-parte-interior-atras.jpg"
     ]
   },
   "ferrari-sf90-stradale": {
@@ -753,11 +753,11 @@ const vehicleData: VehicleData = {
       "Carbon Fiber Construction"
     ],
     images: [
-      "/images/ferrari-sf90-stradale-1.jpg",
-      "/images/ferrari-sf90-stradale-2.jpg",
-      "/images/ferrari-sf90-stradale-3.jpg",
-      "/images/ferrari-sf90-stradale-4.jpg",
-      "/images/ferrari-sf90-stradale-5.jpg"
+      "../../Ferrari-sf90-stradale/SF90-stradale-1ra.jpg",
+      "../../Ferrari-sf90-stradale/SF90-stradale-interior-parte-adelante.jpg",
+      "../../Ferrari-sf90-stradale/SF90-stradale-interior-parte-adelante-2da.jpg",
+      "../../Ferrari-sf90-stradale/SF90-stradale-parte-exterior-atras.jpg",
+      "../../Ferrari-sf90-stradale/SF90-stradale-parte-interior-atras.jpg"
     ]
   },
   "gls-maybach-p600-mansory": {
@@ -773,11 +773,11 @@ const vehicleData: VehicleData = {
       "Advanced Driver Assistance Systems"
     ],
     images: [
-      "/images/gls-maybach-p600-mansory-1.jpg",
-      "/images/gls-maybach-p600-mansory-2.jpg",
-      "/images/gls-maybach-p600-mansory-3.jpg",
-      "/images/gls-maybach-p600-mansory-4.jpg",
-      "/images/gls-maybach-p600-mansory-5.jpg"
+      "../../GLS-Maybach-p600-mansory/GLS-Maybach-p600-mansory-1ra.jpg",
+      "../../GLS-Maybach-p600-mansory/GLS-Maybach-p600-mansory-interior-parte-adelante.jpg",
+      "../../GLS-Maybach-p600-mansory/GLS-Maybach-p600-mansory-interior-parte-adelante-2da.jpg",
+      "../../GLS-Maybach-p600-mansory/GLS-Maybach-p600-mansory-parte-exterior-atras.jpg",
+      "../../GLS-Maybach-p600-mansory/GLS-Maybach-p600-mansory-parte-interior-atras.jpg"
     ]
   },
   "lamborghini-diablo-vt-roadster": {
@@ -793,11 +793,11 @@ const vehicleData: VehicleData = {
       "Scissor Doors"
     ],
     images: [
-      "/images/lamborghini-diablo-vt-roadster-1.jpg",
-      "/images/lamborghini-diablo-vt-roadster-2.jpg",
-      "/images/lamborghini-diablo-vt-roadster-3.jpg",
-      "/images/lamborghini-diablo-vt-roadster-4.jpg",
-      "/images/lamborghini-diablo-vt-roadster-5.jpg"
+      "../../Lamborghini-diablo-vt-roadster/Diablo-vt-roadster-1ra.jpg",
+      "../../Lamborghini-diablo-vt-roadster/Diablo-vt-roadster-interior-parte-adelante.jpg",
+      "../../Lamborghini-diablo-vt-roadster/Diablo-vt-roadster-interior-parte-adelante-2da.jpg",
+      "../../Lamborghini-diablo-vt-roadster/Diablo-vt-roadster-parte-exterior-atras.jpg",
+      "../../Lamborghini-diablo-vt-roadster/Diablo-vt-roadster-parte-interior-atras.jpg"
     ]
   },
   "lamborghini-huracan-evo-coupe": {
@@ -813,11 +813,11 @@ const vehicleData: VehicleData = {
       "Adaptive Magnetorheological Suspension"
     ],
     images: [
-      "/images/lamborghini-huracan-evo-coupe-1.jpg",
-      "/images/lamborghini-huracan-evo-coupe-2.jpg",
-      "/images/lamborghini-huracan-evo-coupe-3.jpg",
-      "/images/lamborghini-huracan-evo-coupe-4.jpg",
-      "/images/lamborghini-huracan-evo-coupe-5.jpg"
+      "../../Lamborghini-huracan-evo-coupe/Huracan-evo-coupe-1ra.jpg",
+      "../../Lamborghini-huracan-evo-coupe/Huracan-evo-coupe-interior-parte-adelante.jpg",
+      "../../Lamborghini-huracan-evo-coupe/Huracan-evo-coupe-interior-parte-adelante-2da.jpg",
+      "../../Lamborghini-huracan-evo-coupe/Huracan-evo-coupe-parte-exterior-atras.jpg",
+      "../../Lamborghini-huracan-evo-coupe/Huracan-evo-coupe-parte-interior-atras.jpg"
     ]
   },
   "lamborghini-huracan-evo-spyder": {
@@ -833,11 +833,11 @@ const vehicleData: VehicleData = {
       "Lamborghini Dynamic Steering"
     ],
     images: [
-      "/images/lamborghini-huracan-evo-spyder-1.jpg",
-      "/images/lamborghini-huracan-evo-spyder-2.jpg",
-      "/images/lamborghini-huracan-evo-spyder-3.jpg",
-      "/images/lamborghini-huracan-evo-spyder-4.jpg",
-      "/images/lamborghini-huracan-evo-spyder-5.jpg"
+      "../../Lamborghini-huracan-evo-spyder/Huracan-evo-spyder-1ra.jpg",
+      "../../Lamborghini-huracan-evo-spyder/Huracan-evo-spyder-interior-parte-adelante.jpg",
+      "../../Lamborghini-huracan-evo-spyder/Huracan-evo-spyder-interior-parte-adelante-2da.jpg",
+      "../../Lamborghini-huracan-evo-spyder/Huracan-evo-spyder-parte-exterior-atras.jpg",
+      "../../Lamborghini-huracan-evo-spyder/Huracan-evo-spyder-parte-interior-atras.jpg"
     ]
   },
   "lotus-emira": {
@@ -853,11 +853,11 @@ const vehicleData: VehicleData = {
       "Exposed Gear Linkage (manual models)"
     ],
     images: [
-      "/images/lotus-emira-1.jpg",
-      "/images/lotus-emira-2.jpg",
-      "/images/lotus-emira-3.jpg",
-      "/images/lotus-emira-4.jpg",
-      "/images/lotus-emira-5.jpg"
+      "../../Lotus-emira/Emira-1ra.jpg",
+      "../../Lotus-emira/Emira-interior-parte-adelante.jpg",
+      "../../Lotus-emira/Emira-interior-parte-adelante-2da.jpg",
+      "../../Lotus-emira/Emira-parte-exterior-atras.jpg",
+      "../../Lotus-emira/Emira-parte-interior-atras.jpg"
     ]
   },
   "maserati-levante": {
@@ -873,11 +873,11 @@ const vehicleData: VehicleData = {
       "Maserati Touch Control Plus"
     ],
     images: [
-      "/images/maserati-levante-1.jpg",
-      "/images/maserati-levante-2.jpg",
-      "/images/maserati-levante-3.jpg",
-      "/images/maserati-levante-4.jpg",
-      "/images/maserati-levante-5.jpg"
+      "../../Maserati-levante/Levante-1ra.jpg",
+      "../../Maserati-levante/Levante-interior-parte-adelante.jpg",
+      "../../Maserati-levante/Levante-interior-parte-adelante-2da.jpg",
+      "../../Maserati-levante/Levante-parte-exterior-atras.jpg",
+      "../../Maserati-levante/Levante-parte-interior-atras.jpg"
     ]
   },
   "mazda-rx-7": {
@@ -893,11 +893,11 @@ const vehicleData: VehicleData = {
       "Limited-Slip Differential"
     ],
     images: [
-      "/images/mazda-rx-7-1.jpg",
-      "/images/mazda-rx-7-2.jpg",
-      "/images/mazda-rx-7-3.jpg",
-      "/images/mazda-rx-7-4.jpg",
-      "/images/mazda-rx-7-5.jpg"
+      "../../Mazda-rx-7/RX-7-1ra.jpg",
+      "../../Mazda-rx-7/RX-7-interior-parte-adelante.jpg",
+      "../../Mazda-rx-7/RX-7-interior-parte-adelante-2da.jpg",
+      "../../Mazda-rx-7/RX-7-parte-exterior-atras.jpg",
+      "../../Mazda-rx-7/RX-7-parte-interior-atras.jpg"
     ]
   },
   "mclaren-720s": {
@@ -913,11 +913,11 @@ const vehicleData: VehicleData = {
       "Variable Drift Control"
     ],
     images: [
-      "/images/mclaren-720s-1.jpg",
-      "/images/mclaren-720s-2.jpg",
-      "/images/mclaren-720s-3.jpg",
-      "/images/mclaren-720s-4.jpg",
-      "/images/mclaren-720s-5.jpg"
+      "../../McLaren-720s/720s-1ra.jpg",
+      "../../McLaren-720s/720s-interior-parte-adelante.jpg",
+      "../../McLaren-720s/720s-interior-parte-adelante-2da.jpg",
+      "../../McLaren-720s/720s-parte-exterior-atras.jpg",
+      "../../McLaren-720s/720s-parte-interior-atras.jpg"
     ]
   },
   "mclaren-720s-spider-topcar": {
@@ -933,11 +933,11 @@ const vehicleData: VehicleData = {
       "Custom Topcar Interior"
     ],
     images: [
-      "/images/mclaren-720s-spider-topcar-1.jpg",
-      "/images/mclaren-720s-spider-topcar-2.jpg",
-      "/images/mclaren-720s-spider-topcar-3.jpg",
-      "/images/mclaren-720s-spider-topcar-4.jpg",
-      "/images/mclaren-720s-spider-topcar-5.jpg"
+      "../../McLaren-720s-spider-topcar/720s-spider-topcar-1ra.jpg",
+      "../../McLaren-720s-spider-topcar/720s-spider-topcar-interior-parte-adelante.jpg",
+      "../../McLaren-720s-spider-topcar/720s-spider-topcar-interior-parte-adelante-2da.jpg",
+      "../../McLaren-720s-spider-topcar/720s-spider-topcar-parte-exterior-atras.jpg",
+      "../../McLaren-720s-spider-topcar/720s-spider-topcar-parte-interior-atras.jpg"
     ]
   },
   "mclaren-750s": {
@@ -953,11 +953,11 @@ const vehicleData: VehicleData = {
       "Next-Generation Variable Drift Control"
     ],
     images: [
-      "/images/mclaren-750s-1.jpg",
-      "/images/mclaren-750s-2.jpg",
-      "/images/mclaren-750s-3.jpg",
-      "/images/mclaren-750s-4.jpg",
-      "/images/mclaren-750s-5.jpg"
+      "../../McLaren-750s/750s-1ra.jpg",
+      "../../McLaren-750s/750s-interior-parte-adelante.jpg",
+      "../../McLaren-750s/750s-interior-parte-adelante-2da.jpg",
+      "../../McLaren-750s/750s-parte-exterior-atras.jpg",
+      "../../McLaren-750s/750s-parte-interior-atras.jpg"
     ]
   },
   "mclaren-artura": {
@@ -973,11 +973,11 @@ const vehicleData: VehicleData = {
       "Cyber Tire Technology"
     ],
     images: [
-      "/images/mclaren-artura-1.jpg",
-      "/images/mclaren-artura-2.jpg",
-      "/images/mclaren-artura-3.jpg",
-      "/images/mclaren-artura-4.jpg",
-      "/images/mclaren-artura-5.jpg"
+      "../../McLaren-artura/Artura-1ra.jpg",
+      "../../McLaren-artura/Artura-interior-parte-adelante.jpg",
+      "../../McLaren-artura/Artura-interior-parte-adelante-2da.jpg",
+      "../../McLaren-artura/Artura-parte-exterior-atras.jpg",
+      "../../McLaren-artura/Artura-parte-interior-atras.jpg"
     ]
   },
   "mercedes-6x6-brabus": {
@@ -993,11 +993,11 @@ const vehicleData: VehicleData = {
       "Brabus Fine Leather Interior"
     ],
     images: [
-      "/images/mercedes-6x6-brabus-1.jpg",
-      "/images/mercedes-6x6-brabus-2.jpg",
-      "/images/mercedes-6x6-brabus-3.jpg",
-      "/images/mercedes-6x6-brabus-4.jpg",
-      "/images/mercedes-6x6-brabus-5.jpg"
+      "../../Mercedes-6x6-brabus/Mercedes-6x6-brabus-1ra.jpg",
+      "../../Mercedes-6x6-brabus/Mercedes-6x6-brabus-interior-parte-adelante.jpg",
+      "../../Mercedes-6x6-brabus/Mercedes-6x6-brabus-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-6x6-brabus/Mercedes-6x6-brabus-parte-exterior-atras.jpg",
+      "../../Mercedes-6x6-brabus/Mercedes-6x6-brabus-parte-interior-atras.jpg"
     ]
   },
   "mercedes-amg-gt-6": {
@@ -1013,11 +1013,11 @@ const vehicleData: VehicleData = {
       "AMG High-Performance Composite Braking System"
     ],
     images: [
-      "/images/mercedes-amg-gt-6-1.jpg",
-      "/images/mercedes-amg-gt-6-2.jpg",
-      "/images/mercedes-amg-gt-6-3.jpg",
-      "/images/mercedes-amg-gt-6-4.jpg",
-      "/images/mercedes-amg-gt-6-5.jpg"
+      "../../Mercedes-amg-gt-6/AMG-gt-6-1ra.jpg",
+      "../../Mercedes-amg-gt-6/AMG-gt-6-interior-parte-adelante.jpg",
+      "../../Mercedes-amg-gt-6/AMG-gt-6-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-amg-gt-6/AMG-gt-6-parte-exterior-atras.jpg",
+      "../../Mercedes-amg-gt-6/AMG-gt-6-parte-interior-atras.jpg"
     ]
   },
   "mercedes-g-p820-mansory-grey": {
@@ -1033,11 +1033,11 @@ const vehicleData: VehicleData = {
       "Enhanced Suspension System"
     ],
     images: [
-      "/images/mercedes-g-p820-mansory-grey-1.jpg",
-      "/images/mercedes-g-p820-mansory-grey-2.jpg",
-      "/images/mercedes-g-p820-mansory-grey-3.jpg",
-      "/images/mercedes-g-p820-mansory-grey-4.jpg",
-      "/images/mercedes-g-p820-mansory-grey-5.jpg"
+      "../../Mercedes-g-p820-mansory-grey/Mercedes-g-p820-mansory-grey-1ra.jpg",
+      "../../Mercedes-g-p820-mansory-grey/Mercedes-g-p820-mansory-grey-interior-parte-adelante.jpg",
+      "../../Mercedes-g-p820-mansory-grey/Mercedes-g-p820-mansory-grey-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-g-p820-mansory-grey/Mercedes-g-p820-mansory-grey-parte-exterior-atras.jpg",
+      "../../Mercedes-g-p820-mansory-grey/Mercedes-g-p820-mansory-grey-parte-interior-atras.jpg"
     ]
   },
   "mercedes-g63-amg": {
@@ -1053,11 +1053,11 @@ const vehicleData: VehicleData = {
       "Dual 12.3-inch Widescreen Displays"
     ],
     images: [
-      "/images/mercedes-g63-amg-1.jpg",
-      "/images/mercedes-g63-amg-2.jpg",
-      "/images/mercedes-g63-amg-3.jpg",
-      "/images/mercedes-g63-amg-4.jpg",
-      "/images/mercedes-g63-amg-5.jpg"
+      "../../Mercedes-g63-amg/Mercedes-g63-amg-1ra.jpg",
+      "../../Mercedes-g63-amg/Mercedes-g63-amg-interior-parte-adelante.jpg",
+      "../../Mercedes-g63-amg/Mercedes-g63-amg-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-g63-amg/Mercedes-g63-amg-parte-exterior-atras.jpg",
+      "../../Mercedes-g63-amg/Mercedes-g63-amg-parte-interior-atras.jpg"
     ]
   },
   "mercedes-g63-black-mate": {
@@ -1073,11 +1073,11 @@ const vehicleData: VehicleData = {
       "AMG Performance Exhaust System"
     ],
     images: [
-      "/images/mercedes-g63-black-mate-1.jpg",
-      "/images/mercedes-g63-black-mate-2.jpg",
-      "/images/mercedes-g63-black-mate-3.jpg",
-      "/images/mercedes-g63-black-mate-4.jpg",
-      "/images/mercedes-g63-black-mate-5.jpg"
+      "../../Mercedes-g63-black-mate/Mercedes-g63-black-mate-1ra.jpg",
+      "../../Mercedes-g63-black-mate/Mercedes-g63-black-mate-interior-parte-adelante.jpg",
+      "../../Mercedes-g63-black-mate/Mercedes-g63-black-mate-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-g63-black-mate/Mercedes-g63-black-mate-parte-exterior-atras.jpg",
+      "../../Mercedes-g63-black-mate/Mercedes-g63-black-mate-parte-interior-atras.jpg"
     ]
   },
   "mercedes-g63-brabus-700": {
@@ -1093,11 +1093,11 @@ const vehicleData: VehicleData = {
       "Brabus Fine Leather Interior"
     ],
     images: [
-      "/images/mercedes-g63-brabus-700-1.jpg",
-      "/images/mercedes-g63-brabus-700-2.jpg",
-      "/images/mercedes-g63-brabus-700-3.jpg",
-      "/images/mercedes-g63-brabus-700-4.jpg",
-      "/images/mercedes-g63-brabus-700-5.jpg"
+      "../../Mercedes-g63-brabus-700/Mercedes-g63-brabus-700-1ra.jpg",
+      "../../Mercedes-g63-brabus-700/Mercedes-g63-brabus-700-interior-parte-adelante.jpg",
+      "../../Mercedes-g63-brabus-700/Mercedes-g63-brabus-700-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-g63-brabus-700/Mercedes-g63-brabus-700-parte-exterior-atras.jpg",
+      "../../Mercedes-g63-brabus-700/Mercedes-g63-brabus-700-parte-interior-atras.jpg"
     ]
   },
   "mercedes-g63-white-color": {
@@ -1113,11 +1113,11 @@ const vehicleData: VehicleData = {
       "AMG Performance Exhaust System"
     ],
     images: [
-      "/images/mercedes-g63-white-color-1.jpg",
-      "/images/mercedes-g63-white-color-2.jpg",
-      "/images/mercedes-g63-white-color-3.jpg",
-      "/images/mercedes-g63-white-color-4.jpg",
-      "/images/mercedes-g63-white-color-5.jpg"
+      "../../Mercedes-g63-white-color/Mercedes-g63-white-color-1ra.jpg",
+      "../../Mercedes-g63-white-color/Mercedes-g63-white-color-interior-parte-adelante.jpg",
+      "../../Mercedes-g63-white-color/Mercedes-g63-white-color-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-g63-white-color/Mercedes-g63-white-color-parte-exterior-atras.jpg",
+      "../../Mercedes-g63-white-color/Mercedes-g63-white-color-parte-interior-atras.jpg"
     ]
   },
   "mercedes-g500": {
@@ -1133,11 +1133,11 @@ const vehicleData: VehicleData = {
       "Permanent All-Wheel Drive"
     ],
     images: [
-      "/images/mercedes-g500-1.jpg",
-      "/images/mercedes-g500-2.jpg",
-      "/images/mercedes-g500-3.jpg",
-      "/images/mercedes-g500-4.jpg",
-      "/images/mercedes-g500-5.jpg"
+      "../../Mercedes-g500/Mercedes-g500-1ra.jpg",
+      "../../Mercedes-g500/Mercedes-g500-interior-parte-adelante.jpg",
+      "../../Mercedes-g500/Mercedes-g500-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-g500/Mercedes-g500-parte-exterior-atras.jpg",
+      "../../Mercedes-g500/Mercedes-g500-parte-interior-atras.jpg"
     ]
   },
   "mercedes-maybach-1-of-150": {
@@ -1153,11 +1153,11 @@ const vehicleData: VehicleData = {
       "Burmester High-End 3D Surround Sound System"
     ],
     images: [
-      "/images/mercedes-maybach-1-of-150-1.jpg",
-      "/images/mercedes-maybach-1-of-150-2.jpg",
-      "/images/mercedes-maybach-1-of-150-3.jpg",
-      "/images/mercedes-maybach-1-of-150-4.jpg",
-      "/images/mercedes-maybach-1-of-150-5.jpg"
+      "../../Mercedes-maybach-1-of-150/Mercedes-maybach-1-of-150-1ra.jpg",
+      "../../Mercedes-maybach-1-of-150/Mercedes-maybach-1-of-150-interior-parte-adelante.jpg",
+      "../../Mercedes-maybach-1-of-150/Mercedes-maybach-1-of-150-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-maybach-1-of-150/Mercedes-maybach-1-of-150-parte-exterior-atras.jpg",
+      "../../Mercedes-maybach-1-of-150/Mercedes-maybach-1-of-150-parte-interior-atras.jpg"
     ]
   },
   "mercedes-maybach-edition-100": {
@@ -1173,11 +1173,11 @@ const vehicleData: VehicleData = {
       "Exclusive Edition 100 Accessories"
     ],
     images: [
-      "/images/mercedes-maybach-edition-100-1.jpg",
-      "/images/mercedes-maybach-edition-100-2.jpg",
-      "/images/mercedes-maybach-edition-100-3.jpg",
-      "/images/mercedes-maybach-edition-100-4.jpg",
-      "/images/mercedes-maybach-edition-100-5.jpg"
+      "../../Mercedes-maybach-edition-100/Mercedes-maybach-edition-100-1ra.jpg",
+      "../../Mercedes-maybach-edition-100/Mercedes-maybach-edition-100-interior-parte-adelante.jpg",
+      "../../Mercedes-maybach-edition-100/Mercedes-maybach-edition-100-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-maybach-edition-100/Mercedes-maybach-edition-100-parte-exterior-atras.jpg",
+      "../../Mercedes-maybach-edition-100/Mercedes-maybach-edition-100-parte-interior-atras.jpg"
     ]
   },
   "mercedes-maybach-new-black": {
@@ -1193,11 +1193,11 @@ const vehicleData: VehicleData = {
       "MBUX High-End Rear Seat Entertainment"
     ],
     images: [
-      "/images/mercedes-maybach-new-black-1.jpg",
-      "/images/mercedes-maybach-new-black-2.jpg",
-      "/images/mercedes-maybach-new-black-3.jpg",
-      "/images/mercedes-maybach-new-black-4.jpg",
-      "/images/mercedes-maybach-new-black-5.jpg"
+      "../../Mercedes-maybach-new-black/Mercedes-maybach-new-black-1ra.jpg",
+      "../../Mercedes-maybach-new-black/Mercedes-maybach-new-black-interior-parte-adelante.jpg",
+      "../../Mercedes-maybach-new-black/Mercedes-maybach-new-black-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-maybach-new-black/Mercedes-maybach-new-black-parte-exterior-atras.jpg",
+      "../../Mercedes-maybach-new-black/Mercedes-maybach-new-black-parte-interior-atras.jpg"
     ]
   },
   "mercedes-s-maybach-62-150": {
@@ -1208,18 +1208,16 @@ const vehicleData: VehicleData = {
     additionalInfo: "Indulge in the ultimate luxury experience with the Mercedes S Maybach 62/150. This extended wheelbase limousine offers exceptional rear-seat comfort and advanced technology, perfect for those who demand the very best.",
     features: [
       "6.0L V12 Biturbo Engine",
-      "Magic Body Control Suspensionfeatures",
-      "6.0L V12 Biturbo Engine",
       "Magic Body Control Suspension",
       "Executive Rear Seats with Reclining Function",
       "Burmester High-End 3D Surround Sound System"
     ],
     images: [
-      "/images/mercedes-s-maybach-62-150-1.jpg",
-      "/images/mercedes-s-maybach-62-150-2.jpg",
-      "/images/mercedes-s-maybach-62-150-3.jpg",
-      "/images/mercedes-s-maybach-62-150-4.jpg",
-      "/images/mercedes-s-maybach-62-150-5.jpg"
+      "../../Mercedes-s-maybach-62-150/Mercedes-s-maybach-62-150-1ra.jpg",
+      "../../Mercedes-s-maybach-62-150/Mercedes-s-maybach-62-150-interior-parte-adelante.jpg",
+      "../../Mercedes-s-maybach-62-150/Mercedes-s-maybach-62-150-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-s-maybach-62-150/Mercedes-s-maybach-62-150-parte-exterior-atras.jpg",
+      "../../Mercedes-s-maybach-62-150/Mercedes-s-maybach-62-150-parte-interior-atras.jpg"
     ]
   },
   "mercedes-s63-amg": {
@@ -1235,11 +1233,11 @@ const vehicleData: VehicleData = {
       "AMG High-Performance Composite Braking System"
     ],
     images: [
-      "/images/mercedes-s63-amg-1.jpg",
-      "/images/mercedes-s63-amg-2.jpg",
-      "/images/mercedes-s63-amg-3.jpg",
-      "/images/mercedes-s63-amg-4.jpg",
-      "/images/mercedes-s63-amg-5.jpg"
+      "../../Mercedes-s63-amg/Mercedes-s63-amg-1ra.jpg",
+      "../../Mercedes-s63-amg/Mercedes-s63-amg-interior-parte-adelante.jpg",
+      "../../Mercedes-s63-amg/Mercedes-s63-amg-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-s63-amg/Mercedes-s63-amg-parte-exterior-atras.jpg",
+      "../../Mercedes-s63-amg/Mercedes-s63-amg-parte-interior-atras.jpg"
     ]
   },
   "mercedes-s580-brabus-kit": {
@@ -1255,11 +1253,11 @@ const vehicleData: VehicleData = {
       "Brabus Fine Leather Interior"
     ],
     images: [
-      "/images/mercedes-s580-brabus-kit-1.jpg",
-      "/images/mercedes-s580-brabus-kit-2.jpg",
-      "/images/mercedes-s580-brabus-kit-3.jpg",
-      "/images/mercedes-s580-brabus-kit-4.jpg",
-      "/images/mercedes-s580-brabus-kit-5.jpg"
+      "../../Mercedes-s580-brabus-kit/Mercedes-s580-brabus-kit-1ra.jpg",
+      "../../Mercedes-s580-brabus-kit/Mercedes-s580-brabus-kit-interior-parte-adelante.jpg",
+      "../../Mercedes-s580-brabus-kit/Mercedes-s580-brabus-kit-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-s580-brabus-kit/Mercedes-s580-brabus-kit-parte-exterior-atras.jpg",
+      "../../Mercedes-s580-brabus-kit/Mercedes-s580-brabus-kit-parte-interior-atras.jpg"
     ]
   },
   "mercedes-sl63": {
@@ -1275,11 +1273,11 @@ const vehicleData: VehicleData = {
       "AMG High-Performance Composite Braking System"
     ],
     images: [
-      "/images/mercedes-sl63-1.jpg",
-      "/images/mercedes-sl63-2.jpg",
-      "/images/mercedes-sl63-3.jpg",
-      "/images/mercedes-sl63-4.jpg",
-      "/images/mercedes-sl63-5.jpg"
+      "../../Mercedes-sl63/Mercedes-sl63-1ra.jpg",
+      "../../Mercedes-sl63/Mercedes-sl63-interior-parte-adelante.jpg",
+      "../../Mercedes-sl63/Mercedes-sl63-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-sl63/Mercedes-sl63-parte-exterior-atras.jpg",
+      "../../Mercedes-sl63/Mercedes-sl63-parte-interior-atras.jpg"
     ]
   },
   "mercedes-v-class": {
@@ -1295,11 +1293,11 @@ const vehicleData: VehicleData = {
       "Flexible Seating Configurations"
     ],
     images: [
-      "/images/mercedes-v-class-1.jpg",
-      "/images/mercedes-v-class-2.jpg",
-      "/images/mercedes-v-class-3.jpg",
-      "/images/mercedes-v-class-4.jpg",
-      "/images/mercedes-v-class-5.jpg"
+      "../../Mercedes-v-class/Mercedes-v-class-1ra.jpg",
+      "../../Mercedes-v-class/Mercedes-v-class-interior-parte-adelante.jpg",
+      "../../Mercedes-v-class/Mercedes-v-class-interior-parte-adelante-2da.jpg",
+      "../../Mercedes-v-class/Mercedes-v-class-parte-exterior-atras.jpg",
+      "../../Mercedes-v-class/Mercedes-v-class-parte-interior-atras.jpg"
     ]
   },
   "mini-cooper-jcw-gp-2020": {
@@ -1315,11 +1313,11 @@ const vehicleData: VehicleData = {
       "Carbon Fiber Reinforced Plastic Wheel Arches"
     ],
     images: [
-      "/images/mini-cooper-jcw-gp-2020-1.jpg",
-      "/images/mini-cooper-jcw-gp-2020-2.jpg",
-      "/images/mini-cooper-jcw-gp-2020-3.jpg",
-      "/images/mini-cooper-jcw-gp-2020-4.jpg",
-      "/images/mini-cooper-jcw-gp-2020-5.jpg"
+      "../../Mini-cooper-jcw-gp-2020/Mini-cooper-jcw-gp-2020-1ra.jpg",
+      "../../Mini-cooper-jcw-gp-2020/Mini-cooper-jcw-gp-2020-interior-parte-adelante.jpg",
+      "../../Mini-cooper-jcw-gp-2020/Mini-cooper-jcw-gp-2020-interior-parte-adelante-2da.jpg",
+      "../../Mini-cooper-jcw-gp-2020/Mini-cooper-jcw-gp-2020-parte-exterior-atras.jpg",
+      "../../Mini-cooper-jcw-gp-2020/Mini-cooper-jcw-gp-2020-parte-interior-atras.jpg"
     ]
   },
   "porsche-911-stinger-gtr-limited-1-7": {
@@ -1335,11 +1333,11 @@ const vehicleData: VehicleData = {
       "Limited Edition (1 of 7 produced)"
     ],
     images: [
-      "/images/porsche-911-stinger-gtr-limited-1-7-1.jpg",
-      "/images/porsche-911-stinger-gtr-limited-1-7-2.jpg",
-      "/images/porsche-911-stinger-gtr-limited-1-7-3.jpg",
-      "/images/porsche-911-stinger-gtr-limited-1-7-4.jpg",
-      "/images/porsche-911-stinger-gtr-limited-1-7-5.jpg"
+      "../../Porsche-911-stinger-gtr-limited-1-7/Porsche-911-stinger-gtr-limited-1-7-1ra.jpg",
+      "../../Porsche-911-stinger-gtr-limited-1-7/Porsche-911-stinger-gtr-limited-1-7-interior-parte-adelante.jpg",
+      "../../Porsche-911-stinger-gtr-limited-1-7/Porsche-911-stinger-gtr-limited-1-7-interior-parte-adelante-2da.jpg",
+      "../../Porsche-911-stinger-gtr-limited-1-7/Porsche-911-stinger-gtr-limited-1-7-parte-exterior-atras.jpg",
+      "../../Porsche-911-stinger-gtr-limited-1-7/Porsche-911-stinger-gtr-limited-1-7-parte-interior-atras.jpg"
     ]
   },
   "porsche-911-targa-4-stinger-topcar": {
@@ -1355,11 +1353,11 @@ const vehicleData: VehicleData = {
       "Custom Topcar Interior"
     ],
     images: [
-      "/images/porsche-911-targa-4-stinger-topcar-1.jpg",
-      "/images/porsche-911-targa-4-stinger-topcar-2.jpg",
-      "/images/porsche-911-targa-4-stinger-topcar-3.jpg",
-      "/images/porsche-911-targa-4-stinger-topcar-4.jpg",
-      "/images/porsche-911-targa-4-stinger-topcar-5.jpg"
+      "../../Porsche-911-targa-4-stinger-topcar/Porsche-911-targa-4-stinger-topcar-1ra.jpg",
+      "../../Porsche-911-targa-4-stinger-topcar/Porsche-911-targa-4-stinger-topcar-interior-parte-adelante.jpg",
+      "../../Porsche-911-targa-4-stinger-topcar/Porsche-911-targa-4-stinger-topcar-interior-parte-adelante-2da.jpg",
+      "../../Porsche-911-targa-4-stinger-topcar/Porsche-911-targa-4-stinger-topcar-parte-exterior-atras.jpg",
+      "../../Porsche-911-targa-4-stinger-topcar/Porsche-911-targa-4-stinger-topcar-parte-interior-atras.jpg"
     ]
   },
   "porsche-911-targa-techart": {
@@ -1375,11 +1373,11 @@ const vehicleData: VehicleData = {
       "Techart Formula V Forged Wheels"
     ],
     images: [
-      "/images/porsche-911-targa-techart-1.jpg",
-      "/images/porsche-911-targa-techart-2.jpg",
-      "/images/porsche-911-targa-techart-3.jpg",
-      "/images/porsche-911-targa-techart-4.jpg",
-      "/images/porsche-911-targa-techart-5.jpg"
+      "../../Porsche-911-targa-techart/Porsche-911-targa-techart-1ra.jpg",
+      "../../Porsche-911-targa-techart/Porsche-911-targa-techart-interior-parte-adelante.jpg",
+      "../../Porsche-911-targa-techart/Porsche-911-targa-techart-interior-parte-adelante-2da.jpg",
+      "../../Porsche-911-targa-techart/Porsche-911-targa-techart-parte-exterior-atras.jpg",
+      "../../Porsche-911-targa-techart/Porsche-911-targa-techart-parte-interior-atras.jpg"
     ]
   },
   "porsche-911-turbo-s-cabrio": {
@@ -1395,11 +1393,11 @@ const vehicleData: VehicleData = {
       "Porsche Active Aerodynamics (PAA)"
     ],
     images: [
-      "/images/porsche-911-turbo-s-cabrio-1.jpg",
-      "/images/porsche-911-turbo-s-cabrio-2.jpg",
-      "/images/porsche-911-turbo-s-cabrio-3.jpg",
-      "/images/porsche-911-turbo-s-cabrio-4.jpg",
-      "/images/porsche-911-turbo-s-cabrio-5.jpg"
+      "../../Porsche-911-turbo-s-cabrio/Porsche-911-turbo-s-cabrio-1ra.jpg",
+      "../../Porsche-911-turbo-s-cabrio/Porsche-911-turbo-s-cabrio-interior-parte-adelante.jpg",
+      "../../Porsche-911-turbo-s-cabrio/Porsche-911-turbo-s-cabrio-interior-parte-adelante-2da.jpg",
+      "../../Porsche-911-turbo-s-cabrio/Porsche-911-turbo-s-cabrio-parte-exterior-atras.jpg",
+      "../../Porsche-911-turbo-s-cabrio/Porsche-911-turbo-s-cabrio-parte-interior-atras.jpg"
     ]
   },
   "porsche-boxster-gts": {
@@ -1415,11 +1413,11 @@ const vehicleData: VehicleData = {
       "Sport Chrono Package"
     ],
     images: [
-      "/images/porsche-boxster-gts-1.jpg",
-      "/images/porsche-boxster-gts-2.jpg",
-      "/images/porsche-boxster-gts-3.jpg",
-      "/images/porsche-boxster-gts-4.jpg",
-      "/images/porsche-boxster-gts-5.jpg"
+      "../../Porsche-boxster-gts/Porsche-boxster-gts-1ra.jpg",
+      "../../Porsche-boxster-gts/Porsche-boxster-gts-interior-parte-adelante.jpg",
+      "../../Porsche-boxster-gts/Porsche-boxster-gts-interior-parte-adelante-2da.jpg",
+      "../../Porsche-boxster-gts/Porsche-boxster-gts-parte-exterior-atras.jpg",
+      "../../Porsche-boxster-gts/Porsche-boxster-gts-parte-interior-atras.jpg"
     ]
   },
   "porsche-cayenne-s": {
@@ -1435,11 +1433,11 @@ const vehicleData: VehicleData = {
       "Porsche 4D Chassis Control"
     ],
     images: [
-      "/images/porsche-cayenne-s-1.jpg",
-      "/images/porsche-cayenne-s-2.jpg",
-      "/images/porsche-cayenne-s-3.jpg",
-      "/images/porsche-cayenne-s-4.jpg",
-      "/images/porsche-cayenne-s-5.jpg"
+      "../../Porsche-cayenne-s/Porsche-cayenne-s-1ra.jpg",
+      "../../Porsche-cayenne-s/Porsche-cayenne-s-interior-parte-adelante.jpg",
+      "../../Porsche-cayenne-s/Porsche-cayenne-s-interior-parte-adelante-2da.jpg",
+      "../../Porsche-cayenne-s/Porsche-cayenne-s-parte-exterior-atras.jpg",
+      "../../Porsche-cayenne-s/Porsche-cayenne-s-parte-interior-atras.jpg"
     ]
   },
   "porsche-panamera-gts": {
@@ -1455,11 +1453,11 @@ const vehicleData: VehicleData = {
       "Sport Chrono Package"
     ],
     images: [
-      "/images/porsche-panamera-gts-1.jpg",
-      "/images/porsche-panamera-gts-2.jpg",
-      "/images/porsche-panamera-gts-3.jpg",
-      "/images/porsche-panamera-gts-4.jpg",
-      "/images/porsche-panamera-gts-5.jpg"
+      "../../Porsche-panamera-gts/Porsche-panamera-gts-1ra.jpg",
+      "../../Porsche-panamera-gts/Porsche-panamera-gts-interior-parte-adelante.jpg",
+      "../../Porsche-panamera-gts/Porsche-panamera-gts-interior-parte-adelante-2da.jpg",
+      "../../Porsche-panamera-gts/Porsche-panamera-gts-parte-exterior-atras.jpg",
+      "../../Porsche-panamera-gts/Porsche-panamera-gts-parte-interior-atras.jpg"
     ]
   },
   "range-rover-vogue": {
@@ -1475,11 +1473,11 @@ const vehicleData: VehicleData = {
       "Terrain Response 2 System"
     ],
     images: [
-      "/images/range-rover-vogue-1.jpg",
-      "/images/range-rover-vogue-2.jpg",
-      "/images/range-rover-vogue-3.jpg",
-      "/images/range-rover-vogue-4.jpg",
-      "/images/range-rover-vogue-5.jpg"
+      "../../RangeRover-vogue/Range-vogue-1ra.jpg",
+      "../../RangeRover-vogue/Range-vogue-interior-parte-adelante.jpg",
+      "../../RangeRover-vogue/Range-vogue-interior-parte-adelante-2da.jpg",
+      "../../RangeRover-vogue/Range-vogue-parte-exterior-atras.jpg",
+      "../../RangeRover-vogue/Range-vogue-parte-interior-atras.jpg"
     ]
   },
   "rolls-royce-dawn-mansory": {
@@ -1495,11 +1493,11 @@ const vehicleData: VehicleData = {
       "Mansory Forged Alloy Wheels"
     ],
     images: [
-      "/images/rolls-royce-dawn-mansory-1.jpg",
-      "/images/rolls-royce-dawn-mansory-2.jpg",
-      "/images/rolls-royce-dawn-mansory-3.jpg",
-      "/images/rolls-royce-dawn-mansory-4.jpg",
-      "/images/rolls-royce-dawn-mansory-5.jpg"
+      "../../RollsRoyce-dawn-mansory/Dawn-mansory-1ra.jpg",
+      "../../RollsRoyce-dawn-mansory/Dawn-mansory-interior-parte-adelante.jpg",
+      "../../RollsRoyce-dawn-mansory/Dawn-mansory-interior-parte-adelante-2da.jpg",
+      "../../RollsRoyce-dawn-mansory/Dawn-mansory-parte-exterior-atras.jpg",
+      "../../RollsRoyce-dawn-mansory/Dawn-mansory-parte-interior-atras.jpg"
     ]
   },
   "rolls-royce-ghost-white-orange": {
@@ -1515,11 +1513,11 @@ const vehicleData: VehicleData = {
       "Bespoke White and Orange Exterior"
     ],
     images: [
-      "/images/rolls-royce-ghost-white-orange-1.jpg",
-      "/images/rolls-royce-ghost-white-orange-2.jpg",
-      "/images/rolls-royce-ghost-white-orange-3.jpg",
-      "/images/rolls-royce-ghost-white-orange-4.jpg",
-      "/images/rolls-royce-ghost-white-orange-5.jpg"
+      "../../RollsRoyce-ghost-white-orange/Ghost-white-orange-1ra.jpg",
+      "../../RollsRoyce-ghost-white-orange/Ghost-white-orange-interior-parte-adelante.jpg",
+      "../../RollsRoyce-ghost-white-orange/Ghost-white-orange-interior-parte-adelante-2da.jpg",
+      "../../RollsRoyce-ghost-white-orange/Ghost-white-orange-parte-exterior-atras.jpg",
+      "../../RollsRoyce-ghost-white-orange/Ghost-white-orange-parte-interior-atras.jpg"
     ]
   },
   "rolls-royce-spectre": {
@@ -1535,11 +1533,11 @@ const vehicleData: VehicleData = {
       "Bespoke Silent Serenity Sound Insulation"
     ],
     images: [
-      "/images/rolls-royce-spectre-1.jpg",
-      "/images/rolls-royce-spectre-2.jpg",
-      "/images/rolls-royce-spectre-3.jpg",
-      "/images/rolls-royce-spectre-4.jpg",
-      "/images/rolls-royce-spectre-5.jpg"
+      "../../RollsRoyce-spectre/Spectre-1ra.jpg",
+      "../../RollsRoyce-spectre/Spectre-interior-parte-adelante.jpg",
+      "../../RollsRoyce-spectre/Spectre-interior-parte-adelante-2da.jpg",
+      "../../RollsRoyce-spectre/Spectre-parte-exterior-atras.jpg",
+      "../../RollsRoyce-spectre/Spectre-parte-interior-atras.jpg"
     ]
   },
   "rolls-royce-spectre-full-options": {
@@ -1555,11 +1553,11 @@ const vehicleData: VehicleData = {
       "Starlight Headliner with Shooting Star Feature"
     ],
     images: [
-      "/images/rolls-royce-spectre-full-options-1.jpg",
-      "/images/rolls-royce-spectre-full-options-2.jpg",
-      "/images/rolls-royce-spectre-full-options-3.jpg",
-      "/images/rolls-royce-spectre-full-options-4.jpg",
-      "/images/rolls-royce-spectre-full-options-5.jpg"
+      "../../RollsRoyce-spectre-full-options/Spectre-full-options-1ra.jpg",
+      "../../RollsRoyce-spectre-full-options/Spectre-full-options-interior-parte-adelante.jpg",
+      "../../RollsRoyce-spectre-full-options/Spectre-full-options-interior-parte-adelante-2da.jpg",
+      "../../RollsRoyce-spectre-full-options/Spectre-full-options-parte-exterior-atras.jpg",
+      "../../RollsRoyce-spectre-full-options/Spectre-full-options-parte-interior-atras.jpg"
     ]
   },
   "rolls-royce-cullinan": {
@@ -1575,11 +1573,11 @@ const vehicleData: VehicleData = {
       "Viewing Suite"
     ],
     images: [
-      "/images/rolls-royce-cullinan-1.jpg",
-      "/images/rolls-royce-cullinan-2.jpg",
-      "/images/rolls-royce-cullinan-3.jpg",
-      "/images/rolls-royce-cullinan-4.jpg",
-      "/images/rolls-royce-cullinan-5.jpg"
+      "../../RollsRoyce-cullinan/Cullinan-1ra.jpg",
+      "../../RollsRoyce-cullinan/Cullinan-interior-parte-adelante.jpg",
+      "../../RollsRoyce-cullinan/Cullinan-interior-parte-adelante-2da.jpg",
+      "../../RollsRoyce-cullinan/Cullinan-parte-exterior-atras.jpg",
+      "../../RollsRoyce-cullinan/Cullinan-parte-interior-atras.jpg"
     ]
   },
   "rolls-royce-dawn-black-badge": {
@@ -1595,11 +1593,11 @@ const vehicleData: VehicleData = {
       "Darkened Spirit of Ecstasy"
     ],
     images: [
-      "/images/rolls-royce-dawn-black-badge-1.jpg",
-      "/images/rolls-royce-dawn-black-badge-2.jpg",
-      "/images/rolls-royce-dawn-black-badge-3.jpg",
-      "/images/rolls-royce-dawn-black-badge-4.jpg",
-      "/images/rolls-royce-dawn-black-badge-5.jpg"
+      "../../RollsRoyce-dawn-black-badge/Dawn-black-badge-1ra.jpg",
+      "../../RollsRoyce-dawn-black-badge/Dawn-black-badge-interior-parte-adelante.jpg",
+      "../../RollsRoyce-dawn-black-badge/Dawn-black-badge-interior-parte-adelante-2da.jpg",
+      "../../RollsRoyce-dawn-black-badge/Dawn-black-badge-parte-exterior-atras.jpg",
+      "../../RollsRoyce-dawn-black-badge/Dawn-black-badge-parte-interior-atras.jpg"
     ]
   },
   "rolls-royce-ghost": {
@@ -1615,11 +1613,11 @@ const vehicleData: VehicleData = {
       "Illuminated Fascia"
     ],
     images: [
-      "/images/rolls-royce-ghost-1.jpg",
-      "/images/rolls-royce-ghost-2.jpg",
-      "/images/rolls-royce-ghost-3.jpg",
-      "/images/rolls-royce-ghost-4.jpg",
-      "/images/rolls-royce-ghost-5.jpg"
+      "../../RollsRoyce-ghost/Ghost-1ra.jpg",
+      "../../RollsRoyce-ghost/Ghost-interior-parte-adelante.jpg",
+      "../../RollsRoyce-ghost/Ghost-interior-parte-adelante-2da.jpg",
+      "../../RollsRoyce-ghost/Ghost-parte-exterior-atras.jpg",
+      "../../RollsRoyce-ghost/Ghost-parte-interior-atras.jpg"
     ]
   },
   "tesla-model-3-performance": {
@@ -1635,11 +1633,11 @@ const vehicleData: VehicleData = {
       "Premium Interior"
     ],
     images: [
-      "/images/tesla-model-3-performance-1.jpg",
-      "/images/tesla-model-3-performance-2.jpg",
-      "/images/tesla-model-3-performance-3.jpg",
-      "/images/tesla-model-3-performance-4.jpg",
-      "/images/tesla-model-3-performance-5.jpg"
+      "../../Tesla-model-3-performance/Model-3-performance-1ra.jpg",
+      "../../Tesla-model-3-performance/Model-3-performance-interior-parte-adelante.jpg",
+      "../../Tesla-model-3-performance/Model-3-performance-interior-parte-adelante-2da.jpg",
+      "../../Tesla-model-3-performance/Model-3-performance-parte-exterior-atras.jpg",
+      "../../Tesla-model-3-performance/Model-3-performance-parte-interior-atras.jpg"
     ]
   }
 };
