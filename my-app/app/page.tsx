@@ -2,32 +2,50 @@
 
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { ChevronRight, ShoppingCart, Key, Car } from 'lucide-react'
-import Link from 'next/link'
+import { ChevronRight, ShoppingCart, Key, Car } from "lucide-react"
+import Link from "next/link"
 import { BrandCarousel } from "@/components/brand-carousel"
 
 const services = [
   {
     title: "Purchase",
     description: "Find your perfect luxury vehicle from our exclusive collection",
-    icon: ShoppingCart
+    icon: ShoppingCart,
   },
   {
     title: "Rent",
     description: "Experience luxury with our flexible rental options",
-    icon: Key
+    icon: Key,
   },
   {
     title: "Sell",
     description: "Get the best value for your premium vehicle",
-    icon: Car
-  }
+    icon: Car,
+  },
 ]
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
+        <div
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage:
+              'url(/banner.jpg)',
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <div className="absolute inset-0 bg-black/60" />
+        </div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
+          className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent"
+        />
         <div className="relative z-10 container mx-auto px-4 py-20">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -41,9 +59,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-6xl md:text-7xl lg:text-8xl font-bold mb-8 leading-tight"
             >
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#9b8b6f] to-[#c4af8d]">
-                Luxury
-              </span>{" "}
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#9b8b6f] to-[#c4af8d]">Luxury</span>{" "}
               Redefined
             </motion.h1>
             <motion.p
@@ -52,8 +68,8 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="text-xl md:text-2xl text-gray-300 mb-12"
             >
-              Experience automotive excellence with OLB Motors. Where luxury meets performance, 
-              and dreams become reality in Dubai.
+              Experience automotive excellence with OLB Motors. Where luxury meets performance, and dreams become
+              reality in Dubai.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -62,18 +78,15 @@ export default function Home() {
               className="flex flex-col sm:flex-row gap-6 justify-center"
             >
               <Link href="/vehicles">
-                <Button 
-                  size="lg" 
-                  className="bg-[#9b8b6f] text-black hover:bg-[#c4af8d] h-14 px-8 text-lg group"
-                >
+                <Button size="lg" className="bg-[#9b8b6f] text-black hover:bg-[#c4af8d] h-14 px-8 text-lg group">
                   Explore Collection
                   <ChevronRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Button>
               </Link>
               <Link href="/sell">
-                <Button 
-                  size="lg" 
-                  variant="outline" 
+                <Button
+                  size="lg"
+                  variant="outline"
                   className="border-2 border-[#9b8b6f] text-[#9b8b6f] hover:bg-[#9b8b6f]/10 h-14 px-8 text-lg"
                 >
                   Sell Your Vehicle
@@ -99,7 +112,7 @@ export default function Home() {
               Discover our comprehensive range of automotive services tailored to meet your needs
             </p>
           </motion.div>
-          
+
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {services.map((service, index) => (
               <motion.div
