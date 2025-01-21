@@ -81,26 +81,6 @@ const vehicleData: VehicleData = {
       "../../RollsRoyce-dawn-grey/Dawn-parte-interior-atras.jpg"
     ]
   },
-  "lamborghini-urus": { 
-    name: "Lamborghini Urus",
-    price: 1200000,
-    mileage: 8000,
-    description: "The Lamborghini Urus is the world's first Super Sport Utility Vehicle.",
-    additionalInfo: "Experience the ultimate blend of luxury and performance with the Lamborghini Urus. This groundbreaking SUV combines the power of a supercar with the versatility of an SUV, making it the perfect choice for those who demand both.",
-    features: [
-      "4.0L V8 Twin-Turbo Engine",
-      "All-Wheel Drive",
-      "Adaptive Air Suspension",
-      "Carbon Ceramic Brakes"
-    ],
-    images: [
-      "../../Lamborghini-urus/Urus-1ra.jpg",
-      "../../Lamborghini-urus/Urus-interior-parte-adelante.jpg",
-      "../../Lamborghini-urus/Urus-interior-parte-adelante-2da.jpg",
-      "../../Lamborghini-urus/Urus-parte-exterior-atras.jpg",
-      "../../Lamborghini-urus/Urus-parte-interior-atras.jpg"
-    ]
-  },
   "lamborghini-sterrato": { 
     name: "Lamborghini Sterrato",
     price: 1300000,
@@ -119,6 +99,26 @@ const vehicleData: VehicleData = {
       "../../Lamborghini-sterrato/Sterrato-interior-parte-adelante-2da.jpg",
       "../../Lamborghini-sterrato/Sterrato-parte-exterior-atras.jpg",
       "../../Lamborghini-sterrato/Sterrato-parte-interior-atras.jpg"
+    ]
+  },
+  "lamborghini-urus": { 
+    name: "Lamborghini Urus",
+    price: 1200000,
+    mileage: 8000,
+    description: "The Lamborghini Urus is the world's first Super Sport Utility Vehicle.",
+    additionalInfo: "Experience the ultimate blend of luxury and performance with the Lamborghini Urus. This groundbreaking SUV combines the power of a supercar with the versatility of an SUV, making it the perfect choice for those who demand both.",
+    features: [
+      "4.0L V8 Twin-Turbo Engine",
+      "All-Wheel Drive",
+      "Adaptive Air Suspension",
+      "Carbon Ceramic Brakes"
+    ],
+    images: [
+      "../../Lamborghini-urus/Urus-1ra.jpg",
+      "../../Lamborghini-urus/Urus-interior-parte-adelante.jpg",
+      "../../Lamborghini-urus/Urus-interior-parte-adelante-2da.jpg",
+      "../../Lamborghini-urus/Urus-parte-exterior-atras.jpg",
+      "../../Lamborghini-urus/Urus-parte-interior-atras.jpg"
     ]
   },
   "lamborghini-huracan-sto": { 
