@@ -121,6 +121,7 @@ const vehicleData: VehicleData = {
       "../../Lamborghini-urus/Urus-parte-interior-atras.jpg"
     ]
   },
+
   "lamborghini-huracan-sto": { 
     name: "Lamborghini Huracan STO",
     price: 1400000,
