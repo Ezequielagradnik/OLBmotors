@@ -17,12 +17,12 @@ import { Pagination } from "@/components/Pagination"
 import vehicleData from '@/data/vehicle-data'
 
 const vehicles = [
-  { id: 'range-rover-sport', name: "Range Rover Sport", price: 450000, type: "SUV", brand: "Range Rover" },
-  { id: 'rolls-royce-ghost-mansory', name: "Rolls Royce Ghost Mansory", price: 1500000, type: "Sedan", brand: "Rolls Royce" },
-  { id: 'rolls-royce-cullinan-violet', name: "Rolls Royce Cullinan Violet", price: 2000000, type: "SUV", brand: "Rolls Royce" },
   { id: 'rolls-royce-dawn-grey', name: "Rolls Royce Dawn Grey", price: 1800000, type: "Convertible", brand: "Rolls Royce" },
   { id: 'lamborghini-sterrato', name: "Lamborghini Sterrato", price: 1300000, type: "Sport", brand: "Lamborghini" },
   { id: 'lamborghini-urus', name: "Lamborghini Urus", price: 1200000, type: "SUV", brand: "Lamborghini" },
+  { id: 'range-rover-sport', name: "Range Rover Sport", price: 450000, type: "SUV", brand: "Range Rover" },
+  { id: 'rolls-royce-ghost-mansory', name: "Rolls Royce Ghost Mansory", price: 1500000, type: "Sedan", brand: "Rolls Royce" },
+  { id: 'rolls-royce-cullinan-violet', name: "Rolls Royce Cullinan Violet", price: 2000000, type: "SUV", brand: "Rolls Royce" },
   { id: 'ferrari-testarossa', name: "Ferrari Testarossa", price: 1000000, type: "Sport", brand: "Ferrari" },
   { id: 'lamborghini-huracan-sto', name: "Lamborghini Huracan STO", price: 1400000, type: "Sport", brand: "Lamborghini" },
   { id: 'ferrari-296-gts', name: "Ferrari 296 GTS", price: 1100000, type: "Convertible", brand: "Ferrari" },
