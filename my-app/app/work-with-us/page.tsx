@@ -40,7 +40,7 @@ export default function WorkWithUsPage() {
   return (
     <div className="flex flex-col min-h-screen pt-24">
       <div className="fixed inset-0 z-0">
-        <Image src="/IMG_8386.JPG" alt="Work with OLB Motors" layout="fill" objectFit="cover" quality={100} priority />
+        <Image src="/IMG_1261.JPG" alt="Work with OLB Motors" layout="fill" objectFit="cover" quality={100} priority />
         <div className="absolute inset-0 bg-black/70" />
       </div>
       <motion.section
