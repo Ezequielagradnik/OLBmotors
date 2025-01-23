@@ -33,6 +33,9 @@ export function Header() {
           <Link href="/contact" className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors">
             Contact
           </Link>
+          <Link href="/work-with-us" className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors">
+            Work with Us
+          </Link>
           <Link href="/sell">
             <Button variant="outline" className="border-[#9b8b6f] text-[#9b8b6f] hover:bg-[#9b8b6f]/10">
               <Car className="mr-2 h-4 w-4" />
