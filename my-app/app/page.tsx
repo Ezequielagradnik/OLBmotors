@@ -12,16 +12,19 @@ const services = [
     title: "Purchase",
     description: "Find your perfect luxury vehicle from our exclusive collection",
     icon: ShoppingCart,
+    link: "/vehicles",
   },
   {
     title: "Rent",
     description: "Experience luxury with our flexible rental options",
     icon: Key,
+    link: "/vehicles",
   },
   {
     title: "Sell",
     description: "Get the best value for your premium vehicle",
     icon: Car,
+    link: "/sell",
   },
 ]
 
@@ -117,8 +120,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: index * 0.2 }}
-                className="group relative overflow-hidden rounded-2xl bg-zinc-900/50 backdrop-blur-sm p-6 sm:p-8 hover:bg-zinc-800/50 transition-all duration-300"
-              >
+                className="group relative overflow-hidden rounded-2xl bg-zinc-900/50 backdrop-blur-sm p-6 sm:p-8 hover:bg-zinc-800/50 transition-all duration-300" >
                 <div className="absolute inset-0 bg-gradient-to-br from-[#9b8b6f]/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="relative z-10">
                   <service.icon className="h-12 w-12 sm:h-16 sm:w-16 text-[#9b8b6f] mb-4 sm:mb-6 transform group-hover:scale-110 transition-transform duration-300" />
