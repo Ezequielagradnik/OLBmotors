@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { Footer } from "@/components/footer"
 
 export default function About() {
   return (
@@ -74,7 +73,6 @@ export default function About() {
       </main>
 
       <div className="relative z-10">
-        <Footer />
       </div>
     </div>
   )
