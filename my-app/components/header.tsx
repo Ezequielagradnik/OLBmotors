@@ -6,8 +6,13 @@ import Image from "next/image"
 import { Car, Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { useState } from "react"
 
 export function Header() {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const closeSheet = () => setIsOpen(false)
+
   return (
     <header className="fixed top-0 z-50 w-full border-b border-[#9b8b6f]/20 bg-zinc-900/95 backdrop-blur supports-[backdrop-filter]:bg-zinc-900/60">
       <div className="container flex h-20 items-center justify-between">
@@ -43,7 +48,7 @@ export function Header() {
             </Button>
           </Link>
         </nav>
-        <Sheet>
+        <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
             <Button variant="ghost" className="md:hidden" aria-label="Open Menu">
               <Menu className="h-6 w-6 text-[#9b8b6f]" />
@@ -51,19 +56,38 @@ export function Header() {
           </SheetTrigger>
           <SheetContent className="bg-zinc-900/95 border-[#9b8b6f]/20">
             <nav className="flex flex-col space-y-6 mt-8">
-              <Link href="/vehicles" className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors">
+              <Link
+                href="/vehicles"
+                className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors"
+                onClick={closeSheet}
+              >
                 Vehicles
               </Link>
-              <Link href="/about" className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors">
+              <Link
+                href="/about"
+                className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors"
+                onClick={closeSheet}
+              >
                 About Us
               </Link>
-              <Link href="/help" className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors">
+              <Link href="/help" className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors" onClick={closeSheet}>
                 Help
               </Link>
-              <Link href="/contact" className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors">
+              <Link
+                href="/contact"
+                className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors"
+                onClick={closeSheet}
+              >
                 Contact
               </Link>
-              <Link href="/sell">
+              <Link
+                href="/work-with-us"
+                className="text-[#9b8b6f] hover:text-[#c4af8d] transition-colors"
+                onClick={closeSheet}
+              >
+                Work with Us
+              </Link>
+              <Link href="/sell" onClick={closeSheet}>
                 <Button variant="outline" className="w-full border-[#9b8b6f] text-[#9b8b6f] hover:bg-[#9b8b6f]/10">
                   <Car className="mr-2 h-4 w-4" />
                   Sell Your Vehicle
