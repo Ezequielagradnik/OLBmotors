@@ -63,7 +63,7 @@ export default function ContactPage() {
             </div>
             <div className="flex items-center space-x-3 sm:space-x-4">
               <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-[#9b8b6f]" />
-              <p className="text-sm sm:text-base text-gray-300">Dubai, United Arab Emirates</p>
+              <p className="text-sm sm:text-base text-gray-300"> JBR SADAF 4,Dubai, United Arab Emirates</p>
             </div>
             <div className="flex items-center space-x-3 sm:space-x-4">
               <MessageSquare className="w-5 h-5 sm:w-6 sm:h-6 text-[#9b8b6f]" />
