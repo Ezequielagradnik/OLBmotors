@@ -225,7 +225,7 @@ const vehicleData: VehicleData = {
   "audi-r8": {
     name: "Audi R8",
     price: 900000,
-    mileage: 8000,
+    mileage: 8.000,
     description: "The Audi R8 is a high-performance supercar that combines stunning design with cutting-edge technology.",
     additionalInfo: "Experience the thrill of a true supercar with the Audi R8. This mid-engine marvel offers breathtaking performance and head-turning looks, making it the perfect choice for those who demand the ultimate driving experience.",
     features: [
