@@ -142,7 +142,7 @@ export default function Home() {
             className="text-center mb-12 sm:mb-16"
           >
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6">
-              <span className="text-[#9b8b6f]">Choose</span> a Brand
+              <span className="text-[#9b8b6f]"></span> Brands
             </h2>
             <div className="w-16 sm:w-24 h-1 bg-[#9b8b6f] mx-auto" />
           </motion.div>
