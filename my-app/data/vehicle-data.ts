@@ -285,7 +285,7 @@ const vehicleData: VehicleData = {
   "aurus-senat": {
     name: "Aurus Senat",
     price: 1000000,
-    mileage: 5000,
+    mileage: 5.000,
     description: "The Aurus Senat is a luxury sedan that represents the pinnacle of Russian automotive engineering.",
     additionalInfo: "Experience unparalleled luxury and prestige with the Aurus Senat. This flagship sedan combines advanced technology with exquisite craftsmanship, offering a truly unique driving experience.",
     features: [
